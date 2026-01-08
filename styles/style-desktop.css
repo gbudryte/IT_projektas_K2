@@ -1,0 +1,8 @@
+@import "/styles/style.css";
+
+@media only screen and (min-width: 1440px){
+  .container{
+    background-color: green;
+    max-width: 1440px;
+  }
+}
