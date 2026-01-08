@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alan+Sans:wght@300..900&family=Archivo+Black&family=Asimovian&family=DM+Serif+Display:ital@0;1&family=Indie+Flower&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Story+Script&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+  --primary-color-dark-pink: #ba4270;
+  --primary-color-link-water-white: #fbfcfe;
+  --secondary-color-san-juan-blue: #36536b;
+  --secondary-color-mirage-blue: #1b262f;
+  --secondary-color-charm-pink: #da6d97;
+  --secondary-color-light-san-juan-blue: #6c8294;
+
+  --font-family-dm-serif-display: "DM Serif Display", serif;
+  --font-family-public-sans: "Public Sans", sans-serif;
+  
+  --body-text-size: 15px;
+  --body-text-line-height: 28px;
+
+  --h1-letter-spacing-large: -0.55px;
+  --h1-size-large: 72px;
+  --h1-line-height-large: 72px;
+
+  --h1-letter-spacing-small: -0.55px;
+  --h1-size-small: 56px;
+  --h1-line-height-smalll: 56px;
+
+  --h2-letter-spacing: -0.37px;
+  --h2-size: 48px;
+  --h2-line-height: 56px;
+
+  --h3-letter-spacing-big: -0.25px;
+  --h3-size-big: 32px;
+  --h3-line-height-big: 40px;
+
+  --h3-letter-spacing-small: -0.14px;
+  --h3-size-small: 18px;
+  --h3-line-height-small: 25px;
+
+  --h4-letter-spacing: -0.18px;
+  --h4-size: 24px;
+  --h4-line-height: 32px;
+
+  --buttons-border-radius: 24px;
+  --primary-buttons-box-shadow: 10px 10px 25px #36536B40;
+  --buttons-inputs-text-spacing: -0.12px;
+  --buttons-inputs-text-size: 15px;
+  --error-message-letter-spacing: -0.08px;
+  --error-message-text-size: 11px;
+
+  --disabled-error-state-opacity: 0.5;
+  --checkbox-normal-state-opacity: 0.25;
+  --checkbox-disabled-state-opacity: 0.05;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  margin:0;
+  background-color: #FBFCFE;
+}
+
+.main-container{
+  width: 100%;
+  max-width: 768px;
+  background-color: #EDF3F8;
+  height: fit-content;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
