@@ -1,10 +1,52 @@
 @import "/styles/style.css";
 
-.container{
+.container {
   width: 100%;
-  background-color: #EDF3F8;
+  background-color: #edf3f8;
   height: fit-content;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+footer {
+  width: 100%;
+  background-color: var(--secondary-color-mirage-blue);
+  padding: 42px 0px 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-image: url(../assets/shared/desktop/bg-pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position: center top 179px;
+
+  #footer--links--text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    a {
+      color: var(--primary-color-link-water-white);
+      text-decoration: none;
+      font-weight: bold;
+      opacity: 70%;
+      font-size: var(--body-text-size);
+      font-family: var(--font-family-public-sans);
+      line-height: 17px;
+    }
+  }
+
+  #footer--links--icons {
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  svg path,
+  svg circle {
+    fill: var(--primary-color-link-water-white);
+  }
 }
