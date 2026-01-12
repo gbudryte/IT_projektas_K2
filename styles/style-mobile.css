@@ -13,7 +13,6 @@
 
 .header {
   width: 100%;
-  margin: auto;
   position: relative;
   overflow: hidden;
 }
@@ -48,23 +47,18 @@
 /* header-nav */
 
 .nav__wrapper {
-  width: calc(100%-65px);
-  height: 95px;
-  margin-left: 25px;
-  margin-right: 24px;
-  margin-top: 41px;
-}
-
-.nav__wrapper--home-page {
-  grid-area: nav;
-  height: auto;
-}
-
-.header__nav {
+  width: calc(100%-162px);
+  margin: 41px 24px 58px 25px;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 37px;
+}
+
+.nav__wrapper--home-page {
+  grid-area: nav;
+  margin-bottom: 0;
 }
 
 .nav--payapi-logo {
@@ -72,10 +66,11 @@
   width: 134px;
 }
 
-.nav__menu--logo {
+.nav--menu-logo {
   width: 28px;
   height: 17px;
   display: block;
+  cursor: pointer;
 }
 
 .nav__ul {
@@ -94,12 +89,10 @@
   grid-area: phone;
   display: flex;
   justify-content: center;
-  z-index: 1;
 }
 
 .home--phone-mockup {
   height: 100%;
-  opacity: 1;
   transform: translateX(12px);
 }
 
