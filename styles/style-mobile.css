@@ -1,0 +1,10 @@
+@import "/styles/style.css";
+
+.container{
+  width: 100%;
+  background-color: #EDF3F8;
+  height: fit-content;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
