@@ -10,6 +10,8 @@
 
   --font-family-dm-serif-display: "DM Serif Display", serif;
   --font-family-public-sans: "Public Sans", sans-serif;
+
+  --font-weight-bold: 600;
   
   --body-text-size: 15px;
   --body-text-line-height: 28px;
