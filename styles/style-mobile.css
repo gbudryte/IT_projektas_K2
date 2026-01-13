@@ -19,7 +19,7 @@ footer {
   gap: 40px;
   background-image: url(../assets/shared/desktop/bg-pattern-circle.svg);
   background-repeat: no-repeat;
-  background-position: center top 179px;
+  background-position: center top 177px;
 
   #footer--links--text {
     display: flex;
