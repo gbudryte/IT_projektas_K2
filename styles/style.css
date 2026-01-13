@@ -60,3 +60,19 @@ body{
   margin:0;
   background-color: #FBFCFE;
 }
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--font-family-dm-serif-display);
+  color: var(--secondary-color-light-san-juan-blue);
+}
+
+p{
+  font-family: var(--font-family-public-sans);
+  font-size: var(--body-text-size);
+  line-height: var(--body-text-line-height);
+  color: var(--secondary-color-light-san-juan-blue);
+}
+
+.features{
+  background-color: var(--primary-color-link-water-white);
+}
