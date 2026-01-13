@@ -123,6 +123,8 @@
 
 /* ~~~~~~~~~~~~~ END OF HEADER ~~~~~~~~~~~~~~ */
 
+/* ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
+
 footer {
   width: 100%;
   background-color: var(--secondary-color-mirage-blue);
@@ -143,7 +145,7 @@ footer {
     a {
       color: var(--primary-color-link-water-white);
       text-decoration: none;
-      font-weight: bold;
+      font-weight: var(--font-weight-bold);
       opacity: 70%;
       font-size: var(--body-text-size);
       font-family: var(--font-family-public-sans);
@@ -164,3 +166,4 @@ footer {
     fill: var(--primary-color-link-water-white);
   }
 }
+/* ~~~~~~~~~~~~~ END OF FOOTER ~~~~~~~~~~~~~~ */
