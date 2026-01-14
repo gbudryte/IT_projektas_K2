@@ -169,11 +169,12 @@ footer {
 /* ~~~~~~~~~~~~~ END OF FOOTER ~~~~~~~~~~~~~~ */
 
 /* ~~~~~~~~~~~~~ EMAIL FORM ~~~~~~~~~~~~~~ */
-section.email--form {
+section.email--form--top,
+section.email--form--bottom {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 24px 80px;
   h3 {
     color: var(--secondary-color-san-juan-blue);
     font-family: var(--font-family-dm-serif-display);
@@ -182,16 +183,23 @@ section.email--form {
     line-height: 36px;
     text-align: center;
     font-weight: var(--font-weight-regular);
-    margin: 0px 0 5px 0;
   }
   input {
     text-align: left;
     padding: 0 27px;
-    background: #fbfcfe 0% 0% no-repeat padding-box;
+    background: var(--primary-color-link-water-white) 0% 0% no-repeat
+      padding-box;
+    letter-spacing: 0;
+    color: var(--secondary-color-san-juan-blue);
+    opacity: 1;
+  }
+  input:focus {
+    outline: none;
   }
   input::placeholder {
     color: var(--secondary-color-san-juan-blue);
     opacity: 0.5;
+    letter-spacing: 0;
   }
   button {
     background: var(--primary-color-dark-pink) 0% 0% no-repeat padding-box;
@@ -204,30 +212,46 @@ section.email--form {
     border-radius: var(--buttons-border-radius);
     width: 100%;
     box-shadow: var(--primary-buttons-box-shadow);
-    font-family: var(--font-family-public-sans);
-    font-weight: var(--font-weight-bold);
-    font-size: var(--buttons-inputs-text-size);
-    line-height: var(--buttons-inputs-line-height);
     border: none;
     height: 48px;
     margin: 8px 0;
   }
+  input,
+  button,
+  input::placeholder {
+    font-family: var(--font-family-public-sans);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--buttons-inputs-text-size);
+    line-height: var(--buttons-inputs-line-height);
+  }
 
   div {
-    margin: 16px 0 80px 0;
-    span, a {
+    margin-top: 16px;
+    span,
+    a {
       color: var(--secondary-color-light-san-juan-blue);
       font-family: var(--font-family-public-sans);
       font-size: var(--buttons-inputs-text-size);
-      line-height: var(--buttons-inputs-line-height)
+      line-height: var(--buttons-inputs-line-height);
     }
-    span{
+    span {
       font-weight: var(--font-weight-regular);
     }
-    a{
+    a {
       font-weight: var(--font-weight-bold);
       text-decoration: underline;
       text-underline-offset: 3px;
     }
+  }
+}
+
+section.email--form--top h3 {
+  margin: 0px 0 5px 0;
+}
+
+section.email--form--bottom {
+  padding-top: 80px;
+  h3 {
+    margin: 0px 0 13px 0;
   }
 }

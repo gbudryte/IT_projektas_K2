@@ -1,99 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/style-mobile.css" />
+    <link rel="stylesheet" href="styles/style-tablet.css" />
+    <link rel="stylesheet" href="styles/style-desktop.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
-  <link rel="stylesheet" href="styles/style-mobile.css">
-  <link rel="stylesheet" href="styles/style-tablet.css">
-  <link rel="stylesheet" href="styles/style-desktop.css">
+    <title>Frontend Mentor | PayAPI Website Challenge</title>
+  </head>
 
-  <title>Frontend Mentor | PayAPI Website Challenge</title>
-</head>
+  <body>
+    <div class="container">
+      <header class="header header--home-page">
+        <div class="header__circle-wrapper">
+          <img
+            src="/assets/shared/desktop/bg-pattern-circle.svg"
+            alt="circle"
+            class="header__circle header__circle--home-page"
+          />
+        </div>
 
-<body>
-  <div class="container">
+        <div class="nav__wrapper nav__wrapper--home-page">
+          <a href="/index.html"
+            ><img
+              src="/assets/shared/desktop/logo.svg"
+              alt="pay api logo"
+              class="nav--payapi-logo"
+          /></a>
+          <nav>
+            <ul class="nav__ul">
+              <li><a href="/pricing.html">Pricing</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            <button class="nav__button--demo">Schedule a Demo</button>
+            <img
+              src="/assets/shared/mobile/menu.svg"
+              alt="menu logo"
+              class="nav--menu-logo"
+            />
+          </nav>
+        </div>
 
-    <header class="header header--home-page">
-      <div class="header__circle-wrapper">
-        <img src="/assets/shared/desktop/bg-pattern-circle.svg" alt="circle"
-          class="header__circle header__circle--home-page">
-      </div>
+        <div class="div--phone-mockup-shadow">
+          <img
+            src="/assets/home/desktop/iPhone-X-Mockup.svg"
+            alt="phone mockup"
+            class="home--phone-mockup"
+          />
+          <img
+            src="assets/home/desktop/phone-mockup-notification.svg"
+            alt="phone notification"
+            class="home--phone-notification"
+          />
+        </div>
+      </header>
 
-      <div class="nav__wrapper nav__wrapper--home-page">
-        <a href="/index.html"><img src="/assets/shared/desktop/logo.svg" alt="pay api logo"
-            class="nav--payapi-logo"></a>
-        <nav>
-          <ul class="nav__ul">
-            <li><a href="/pricing.html">Pricing</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-          </ul>
-          <button class="nav__button--demo">Schedule a Demo</button>
-          <img src="/assets/shared/mobile/menu.svg" alt="menu logo" class="nav--menu-logo">
-        </nav>
-      </div>
+      <section class="email--form--top">
+        <h3>Start building with our APIs for absolutely free.</h3>
+        <input type="email" placeholder="Enter email address" />
+        <button>Schedule a Demo</button>
+        <div>
+          <span>Have any questions?</span>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </section>
 
-      <div class="div--phone-mockup-shadow">
-        <img src="/assets/home/desktop/iPhone-X-Mockup.svg" alt="phone mockup" class="home--phone-mockup">
-        <img src="assets/home/desktop/phone-mockup-notification.svg" alt="phone notification"
-          class="home--phone-notification">
-      </div>
-    </header>
+      <article style="text-align: center">
+        <h2>Who we work with</h2>
+        Today, millions of people around the world have successfully connected
+        their accounts to apps they love using our API. We provide developers
+        with the tools they need to create easy and accessible experiences for
+        their users.
+      </article>
 
-    <section class="email--form">
-      <h3>Start building with our APIs for absolutely free.</h3>
-      <input type="email" placeholder="Enter email address">
-      <button>Schedule a Demo</button>
-      <div>
-        <span>Have any questions?</span>
-        <a href="contact.html">Contact Us</a>
-      </div>
-    </section>
-    
-    <article style="text-align: center;">
-    <h2>Who we work with</h2>
-    Today, millions of people around the world have successfully connected
-    their accounts to apps they love using our API. We provide developers
-    with the tools they need to create easy and accessible experiences
-    for their users.      
-    </article>
+      <article style="text-align: center">
+        <h2>About Us</h2>
 
-    <article style="text-align: center;">
-    <h2>About Us</h2>
+        <h3>Easy to implement</h3>
+        Our API comes with just a few lines of code. You’ll be up and running in
+        no time. We built our documentation page to integrate payments
+        functionality with ease.
+        <h3>Simple UI & UX</h3>
+        Our pre-built form is easy to integrate in your app or website’s
+        checkout flow and designed to optimize conversion.
+      </article>
 
-    <h3>Easy to implement</h3>
-    Our API comes with just a few lines of code. You’ll be up and running in
-    no time. We built our documentation page to integrate payments functionality
-    with ease.
-    <h3>Simple UI & UX</h3>
-    Our pre-built form is easy to integrate in your app or website’s checkout
-    flow and designed to optimize conversion.      
-    </article>
-
-    <article style="text-align: center;" class="features">
-        <img src="/assets/shared/features - home/icon-personal-finances.svg">
+      <article style="text-align: center" class="features">
+        <img src="/assets/shared/features - home/icon-personal-finances.svg" />
         <h2>Personal Finances</h2>
-        <p>Consolidate financial data from multiple sources and categorize transactions up to
-    2 years of history. Analyze reports to reconcile activities in your account.</p>
-        <img src="/assets/shared/features - home/icon-banking-and-coverage.svg">
+        <p>
+          Consolidate financial data from multiple sources and categorize
+          transactions up to 2 years of history. Analyze reports to reconcile
+          activities in your account.
+        </p>
+        <img
+          src="/assets/shared/features - home/icon-banking-and-coverage.svg"
+        />
         <h2>Banking & Coverage</h2>
-        <p>With our platform, you can speed up account onboarding and support ongoing payments 
-    for checking, savings, credit card, and brokerage accounts.</p>
-        <img src="/assets/shared/features - home/icon-consumer-payments.svg">
+        <p>
+          With our platform, you can speed up account onboarding and support
+          ongoing payments for checking, savings, credit card, and brokerage
+          accounts.
+        </p>
+        <img src="/assets/shared/features - home/icon-consumer-payments.svg" />
         <h2>Consumer Payments</h2>
-        <p>It’s easier to set up secure bank payments with us through a flow designed with the 
-    user experience in mind. Customers could instantly authenticate their account.</p>   
-    </article>
-    <article>
-    <h2>Ready to start?</h2>
-    Enter email address
-    Schedule a Demo
+        <p>
+          It’s easier to set up secure bank payments with us through a flow
+          designed with the user experience in mind. Customers could instantly
+          authenticate their account.
+        </p>
+      </article>
 
-  </div>
-  <footer>
+      <section class="email--form--bottom">
+        <h3>Ready to start?</h3>
+        <input type="email" placeholder="Enter email address" />
+        <button>Schedule a Demo</button>
+      </section>
+    </div>
+    <footer>
       <svg width="135" height="38" xmlns="http://www.w3.org/2000/svg">
         <g fill="#36536B" fill-rule="evenodd">
           <path
@@ -169,6 +202,5 @@
         </a>
       </div>
     </footer>
-</body>
-
+  </body>
 </html>
