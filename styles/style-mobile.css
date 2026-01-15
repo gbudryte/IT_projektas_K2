@@ -128,7 +128,7 @@
 
 .menu-wrapper-js {
   position: fixed;
-  display: none;
+  /* display: none; */
   width: 300px;
   height: 667px;
   background-color: var(--secondary-color-mirage-blue);
@@ -139,7 +139,8 @@
 
 .menu-wrapper-js-2 {
   position: fixed;
-  display: none;
+  /* display: none; */
+  display: flex;
   flex-direction: column;
   align-items: center;
   right: 0%;
@@ -201,6 +202,10 @@
   height: 48px;
   cursor: pointer;
   padding: 0;
+}
+
+.burger-container{
+  display: none;
 }
 
 /* ~~~~~~~~~~~~~ END OF HEADER ~~~~~~~~~~~~~~ */
