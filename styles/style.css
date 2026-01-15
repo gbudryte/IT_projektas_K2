@@ -67,13 +67,99 @@ body {
   background-color: #fbfcfe;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-family-dm-serif-display);
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--font-family-public-sans);
+  color: var(--secondary-color-san-juan-blue);
+  margin: 0 0 16px;
+}
+
+p{
+  margin: 0 0 16px;
+  color: var(--secondary-color-mirage-blue);
+}
+
+.pricing h2, .pricing h3 {
+  color: var(--primary-color-dark-pink);
+}
+
+.partners{
+  background-color: var(--secondary-color-mirage-blue);
+  width: 100%;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.partners__container{
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.partners__title{
+  font-size: var(--h2-size);
+  line-height: var(--h2-line-height);
+  margin-bottom: 16px;
+}
+
+.partners__text{
+  max-width: 760px;
+  margin: 0 auto 24px;
+  color: var(--primary-color-link-water-white);
+}
+
+.partners__button {
+  padding: 10px 20px;
+  border-radius: var(--buttons-border-radius);
+  font-family: var(--font-family-public-sans);
+  font-size: var(--buttons-inputs-text-size);
+  letter-spacing: var(--buttons-inputs-text-spacing);
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--primary-color-link-water-white);
+  border: 1px solid var(--primary-color-link-water-white);
+  transition: background-color .16s ease, color .16s ease, transform .12s ease;
+}
+
+.features{
+  background-color: var(--secondary-color-mirage-blue);
+  color: var(--primary-color-link-water-white);
+  width: 100%;
+  padding: 48px 24px;
+}
+
+.features__container {
+  width: 100%;
+  max-width: 1100px;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  padding: 24px;
+}
+
+.feature__img {
+  width: 106px;
+  height: 106px;
+}
+
+.feature__title {
+  font-size: var(--h3-size-big);
+  line-height: var(--h3-line-height-big);
+  letter-spacing: var(--h3-letter-spacing-big);
+  color: var(--primary-color-link-water-white);
+}
+
+.feature__text{
+  max-width: 520px;
   color: var(--secondary-color-light-san-juan-blue);
 }
 
@@ -86,4 +172,84 @@ p {
 
 .features {
   background-color: var(--primary-color-link-water-white);
+}
+
+.about-us {
+  background-color: var(--primary-color-link-water-white);
+  width: 100%;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.about-us__container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.about-us__title {
+  font-size: var(--h2-size);
+  line-height: var(--h2-line-height);
+  margin-bottom: 16px;
+}
+
+.about-us__text {
+  max-width: 760px;
+  margin: 0 auto 24px;
+  color: var(--secondary-color-light-san-juan-blue);
+}
+
+.about-us__button {
+  padding: 10px 20px;
+  border-radius: var(--buttons-border-radius);
+  font-family: var(--font-family-public-sans);
+  font-size: var(--buttons-inputs-text-size);
+  letter-spacing: var(--buttons-inputs-text-spacing);
+  cursor: pointer;
+  background-color: var(--primary-color-dark-pink);
+  color: var(--primary-color-link-water-white);
+  border: none;
+  box-shadow: var(--primary-buttons-box-shadow);
+  transition: background-color .16s ease, color .16s ease, transform .12s ease;
+}
+
+.ready-to-start {
+  background-color: var(--secondary-color-mirage-blue);
+  width: 100%;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.ready-to-start__container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.ready-to-start__title {
+  font-size: var(--h2-size);
+  line-height: var(--h2-line-height);
+  margin-bottom: 16px;
+  color: var(--primary-color-link-water-white);
+}
+
+.ready-to-start__text {
+  max-width: 760px;
+  margin: 0 auto 24px;
+  color: var(--primary-color-link-water-white);
+}
+
+.ready-to-start__button {
+  padding: 10px 20px;
+  border-radius: var(--buttons-border-radius);
+  font-family: var(--font-family-public-sans);
+  font-size: var(--buttons-inputs-text-size);
+  letter-spacing: var(--buttons-inputs-text-spacing);
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--primary-color-link-water-white);
+  border: 1px solid var(--primary-color-link-water-white);
+  transition: background-color .16s ease, color .16s ease, transform .12s ease;
 }
