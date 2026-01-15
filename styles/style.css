@@ -215,7 +215,7 @@ p {
 }
 
 .ready-to-start {
-  background-color: var(--secondary-color-mirage-blue);
+  background-color: var(--primary-color-link-water-white);
   width: 100%;
   padding: 48px 24px;
   text-align: center;
@@ -232,7 +232,7 @@ p {
   font-size: var(--h2-size);
   line-height: var(--h2-line-height);
   margin-bottom: 16px;
-  color: var(--primary-color-link-water-white);
+  color: var(--secondary-color-mirage-blue);
 }
 
 .ready-to-start__text {
@@ -248,8 +248,7 @@ p {
   font-size: var(--buttons-inputs-text-size);
   letter-spacing: var(--buttons-inputs-text-spacing);
   cursor: pointer;
-  background-color: transparent;
+  background-color: var(--secondary-color-charm-pink);
   color: var(--primary-color-link-water-white);
-  border: 1px solid var(--primary-color-link-water-white);
   transition: background-color .16s ease, color .16s ease, transform .12s ease;
 }
