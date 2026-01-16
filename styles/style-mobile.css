@@ -335,6 +335,7 @@ section.email--form--bottom {
   height: 237px;
   text-align: left;
   position: relative;
+  margin: 0px 0px 31px 0px;
   li{
     list-style-type: none;
     font-family: var(--font-family-public-sans);
