@@ -255,3 +255,127 @@ section.email--form--bottom {
     margin: 0px 0 13px 0;
   }
 }
+
+
+/* ~~~~~~~~~~~~~ PRICING PAGE ~~~~~~~~~~~~~~ */
+
+.main--pricing-container{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  hr{
+    background: #36536B 0% 0% no-repeat padding-box;
+    opacity: 0.25;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 24px;
+    margin-top: 0;
+    border: none;
+  }
+}
+
+.h3--pricing, 
+.h4--pricing-card, 
+.h1--card-price{
+  font-family: var(--font-family-dm-serif-display);
+  font-weight: var(--font-weight-regular);
+}
+
+.h3--pricing{
+    font-size: var(--h3-size-big);
+    color: var(--secondary-color-san-juan-blue);
+    letter-spacing: var(--h3-letter-spacing-big);
+    line-height: 44px;
+    margin-bottom: 44px;
+    position: relative;
+    top: -7px;
+}
+
+.pricing-card{
+  width: 100%;
+  max-width: 327px;
+  margin-bottom: 55px;
+}
+
+.pricing-card-last{
+  margin-bottom: 0px;
+}
+
+.h4--pricing-card{
+  color: var(--primary-color-dark-pink);
+  font-size: var(--h4-size);
+  letter-spacing: var(--h4-letter-spacing);
+  line-height: 33px;
+  margin-bottom: 9px;
+}
+
+.p--pricing-card{
+  color: var(--secondary-color-light-san-juan-blue);
+  font-size: var(--body-text-size);
+  height: 48px;
+  letter-spacing: 0px;
+  line-height: var(--body-text-line-height);
+  font-family: var(--font-family-public-sans);
+  margin-bottom: 30px;
+}
+
+.h1--card-price{
+  font-size: var(--h1-size-small);
+  letter-spacing: -0.43px;
+  line-height: 77px;
+  margin-bottom: 5px;
+}
+
+.ul--features{
+  padding: 0;
+  margin: 0px 107px 31px 97px;
+  width: 123px;
+  height: 237px;
+  text-align: left;
+  li{
+    list-style-type: none;
+    font-family: var(--font-family-public-sans);
+    color: var(--secondary-color-san-juan-blue);
+    font-weight: var(--font-weight-thin-medium);
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0px 0px 15px 36px;
+    position: relative;
+  }
+}
+
+.li--included::before{
+  content: url("/assets/shared/desktop/icon-check.svg");
+  position: absolute;
+  width: 12px;
+  height: 8px;
+  left: 0px;
+}
+
+.li--not-included{
+  opacity: 0.5;
+}
+
+.button--pricing-card{
+  color: var(--secondary-color-san-juan-blue);
+  border: 1px solid var(--secondary-color-san-juan-blue);
+  background-color: transparent;
+  border-radius: var(--buttons-border-radius);
+  letter-spacing: var(--buttons-inputs-text-spacing);
+  width: 168px;
+  height: 48px;
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+  padding: 0;
+}
+
+.button--pricing-card:hover{
+  background-color: var(--secondary-color-san-juan-blue);
+  color: #fff;
+}
+
+
+/* ~~~~~~~~~~~~~ END OF PRICING PAGE ~~~~~~~~~~~~~~ */
