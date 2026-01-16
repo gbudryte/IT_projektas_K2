@@ -331,10 +331,10 @@ section.email--form--bottom {
 
 .ul--features{
   padding: 0;
-  margin: 0px 107px 31px 97px;
-  width: 123px;
+  width: 100%;
   height: 237px;
   text-align: left;
+  position: relative;
   li{
     list-style-type: none;
     font-family: var(--font-family-public-sans);
@@ -344,6 +344,9 @@ section.email--form--bottom {
     line-height: 21px;
     padding: 0px 0px 15px 36px;
     position: relative;
+    left: 50%;
+    transform: translateX(-66.5px);
+    width: 123px;
   }
 }
 
