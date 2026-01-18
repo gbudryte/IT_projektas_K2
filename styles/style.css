@@ -2,11 +2,17 @@
 
 :root {
   --primary-color-dark-pink: #ba4270;
+  --primary-color-dark-pink-filter: brightness(0) saturate(100%) invert(39%) sepia(37%) saturate(988%) hue-rotate(285deg) brightness(87%) contrast(95%);
   --primary-color-link-water-white: #fbfcfe;
+  --primary-color-link-water-white-filter: brightness(0) saturate(100%) invert(86%) sepia(37%) saturate(10%) hue-rotate(182deg) brightness(105%) contrast(104%);
   --secondary-color-san-juan-blue: #36536b;
+  --secondary-color-san-juan-blue-filter: brightness(0) saturate(100%) invert(26%) sepia(6%) saturate(3575%) hue-rotate(166deg) brightness(99%) contrast(81%);
   --secondary-color-mirage-blue: #1b262f;
+  --secondary-color-mirage-blue-filter: brightness(0) saturate(100%) invert(8%) sepia(5%) saturate(5685%) hue-rotate(166deg) brightness(98%) contrast(85%);
   --secondary-color-charm-pink: #da6d97;
+  --secondary-color-charm-pink-filter: brightness(0) saturate(100%) invert(64%) sepia(8%) saturate(6306%) hue-rotate(298deg) brightness(95%) contrast(79%);
   --secondary-color-light-san-juan-blue: #6c8294;
+  --secondary-color-light-san-juan-blue-filter: brightness(0) saturate(100%) invert(44%) sepia(94%) saturate(117%) hue-rotate(165deg) brightness(93%) contrast(80%);
 
   --font-family-dm-serif-display: "DM Serif Display", serif;
   --font-family-public-sans: "Public Sans", sans-serif;
@@ -46,6 +52,7 @@
   --primary-buttons-box-shadow: 10px 10px 25px #36536b40;
   --buttons-inputs-text-spacing: -0.12px;
   --buttons-inputs-text-size: 15px;
+  --buttons-inputs-line-height:17px;
   --error-message-letter-spacing: -0.08px;
   --error-message-text-size: 11px;
 
