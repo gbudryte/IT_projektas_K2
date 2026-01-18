@@ -213,7 +213,7 @@
 
 /* ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
 
-footer {
+.logo--and--links {
   width: 100%;
   background-color: var(--secondary-color-mirage-blue);
   padding: 42px 0px 55px;
@@ -248,6 +248,10 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
+    a{
+      height: 24px;
+    }
   }
 
   svg path,
