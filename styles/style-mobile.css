@@ -361,6 +361,7 @@ section.email--form--bottom {
     line-height: 36px;
     text-align: center;
     font-weight: var(--font-weight-regular);
+    margin-bottom: 13px;
   }
   input,
   textarea {
@@ -385,7 +386,12 @@ section.email--form--bottom {
     resize: none;
     height: 89px;
   }
-  input{
+  input[type='text'], input[type='email']{
     height: 42px;
   }
+  input[type='checkbox']{
+    height: 45px;
+  }
+
+  input[type=]
 }
