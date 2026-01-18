@@ -1,0 +1,19 @@
+{
+  "name": "it_projektas_k2",
+  "version": "1.0.0",
+  "description": "it_projektas_2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbudryte/IT_projektas_K2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbudryte/IT_projektas_K2/issues"
+  },
+  "homepage": "https://github.com/gbudryte/IT_projektas_K2#readme"
+}
