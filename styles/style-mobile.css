@@ -499,14 +499,17 @@ section.email--form--bottom {
     border-bottom: 1px solid var(--secondary-color-san-juan-blue-semi-opaque);
     background: none;
     padding: 0 20px 22px;
-    &::placeholder {
-      color: var(--secondary-color-san-juan-blue-semi-opaque);
+    color: var(--secondary-color-san-juan-blue);
+    &, &::placeholder {
       font-family: var(--font-family-public-sans);
       letter-spacing: var(--buttons-inputs-text-spacing);
       line-height: var(--h3-line-height-small);
       font-size: var(--buttons-inputs-text-size);
       text-align: left;
       font-weight: var(--font-weight-thin-medium);
+    }
+    &::placeholder{
+      color: var(--secondary-color-san-juan-blue-semi-opaque);
     }
     &:focus {
       outline: none;
@@ -529,8 +532,8 @@ section.email--form--bottom {
     font-weight: var(--font-weight-bold);
     font-size: var(--buttons-inputs-text-size);
     line-height: var(--buttons-inputs-line-height);
+    color: var(--secondary-color-san-juan-blue);
     letter-spacing: var(--buttons-inputs-text-spacing);
-    /* height: 48px; */
   }
   #subscription--checkbox{
     height: 45px;
@@ -541,12 +544,24 @@ section.email--form--bottom {
       appearance: none;
       padding: 0;
       margin: 0;
-      background-color: var(--secondary-color-light-san-juan-blue);
+      background-color: var(--secondary-color-san-juan-blue);
       opacity: 0.25;
       border: none;
       border-radius: 0;
       width: 24px;
       height: 24px;
+    }
+    label{
+      font-family: var(--font-family-public-sans);
+      letter-spacing: var(--buttons-inputs-text-spacing);
+      line-height: var(--h3-line-height-small);
+      font-size: var(--buttons-inputs-text-size);
+      text-align: left;
+      font-weight: var(--font-weight-thin-medium);
+      color: var(--secondary-color-san-juan-blue);
+      height: 100%;
+      width: calc(100% - 50px);
+      
     }
 
   }
