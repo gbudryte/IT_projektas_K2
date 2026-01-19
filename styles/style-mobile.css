@@ -579,5 +579,16 @@ section.email--form--bottom {
       width: calc(100% - 50px);
     }
   }
+  .error--mssg {
+    font-size: var(--error-message-text-size);
+    letter-spacing: var(--error-message-letter-spacing);
+    line-height: 15px;
+    color: #ff0000;
+    opacity: 0.5;
+    margin: -16px 20px -10px;
+    padding: 0;
+    display: none;
+
+  }
 }
 /* ~~~~~~~~~~~~~ END OF CONTACT FORM ~~~~~~~~~~~~~~ */
