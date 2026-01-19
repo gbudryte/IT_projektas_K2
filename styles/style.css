@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Alan+Sans:wght@300..900&family=Archivo+Black&family=Asimovian&family=DM+Serif+Display:ital@0;1&family=Indie+Flower&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Story+Script&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 :root {
-  --primary-color-dark-pink: #ba4270;
+  --primary-color-dark-pink: rgb(186, 66, 112);
   --primary-color-dark-pink-filter: brightness(0) saturate(100%) invert(39%) sepia(37%) saturate(988%) hue-rotate(285deg) brightness(87%) contrast(95%);
   --primary-color-link-water-white: #fbfcfe;
   --primary-color-link-water-white-filter: brightness(0) saturate(100%) invert(86%) sepia(37%) saturate(10%) hue-rotate(182deg) brightness(105%) contrast(104%);
