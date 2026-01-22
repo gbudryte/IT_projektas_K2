@@ -1,18 +1,18 @@
 function isEntryEmpty(input) {
-  let inputLen = length(input.trim());
+  let inputLen = input.trim().length;
   if (inputLen > 0) {
-    return False;
+    return false;
   } else {
-    return True;
+    return true;
   }
 }
 
 function isEmailValid(email) {
   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$/;
   if (emailRegex.test(email)) {
-    return True;
+    return true;
   } else {
-    return False;
+    return false;
   }
 }
 
@@ -21,32 +21,29 @@ function obtainRequiredData() {
   return reqData;
 }
 
-function obtainEmailField() {
-  const emailField = document.querySelector("contact-email");
-  return emailField;
-}
-
 function printEmptyError(inputField) {
   const errorField = inputField.nextElementSibling;
   errorField.textContent = "This field can't be empty";
+  errorField.style.display = "block";
 }
 
 function printEmailError(emailField) {
   const errorField = emailField.nextElementSibling;
   errorField.textContent = "Please enter a valid email";
+  errorField.style.display = "block";
 }
 
 function getTestPrint() {
   let requiredFields = obtainRequiredData();
   requiredFields.forEach((input) => {
-    if (isEntryEmpty(input.value())) {
+    if (isEntryEmpty(input.value)) {
       printEmptyError(input);
     }
   });
-  let emailBox = obtainEmailField();
+  const emailBox = document.querySelector("#contact-email");
   if (
-    isEntryEmpty(emailBox.value()) == False &&
-    isEmailValid(emailBox.value()) == False
+    isEntryEmpty(emailBox.value) == false &&
+    isEmailValid(emailBox.value) == false
   ) {
     printEmailError(emailBox);
   }

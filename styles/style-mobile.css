@@ -476,13 +476,7 @@ section.email--form--bottom {
 
 /* ~~~~~~~~~~~~~ CONTACT FORM ~~~~~~~~~~~~~~ */
 
-.contact--form {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  margin: 0 24px 87px;
-
-  h3 {
+#form--page--header {
     color: var(--secondary-color-san-juan-blue);
     font-family: var(--font-family-dm-serif-display);
     font-size: var(--h3-size-big);
@@ -490,8 +484,15 @@ section.email--form--bottom {
     line-height: 36px;
     text-align: center;
     font-weight: var(--font-weight-regular);
-    margin-bottom: 13px;
+    margin: 0 24px;
   }
+
+.contact--form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 37px 24px 87px;
+
   input,
   textarea {
     border: none;
