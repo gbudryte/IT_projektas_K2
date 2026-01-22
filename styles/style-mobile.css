@@ -189,7 +189,6 @@
 }
 
 .nav__button--demo-js {
-
   border-radius: var(--buttons-border-radius);
   border: none;
   background-color: var(--primary-color-dark-pink);
@@ -205,7 +204,7 @@
   line-height: 17px;
 }
 
-.burger-container{
+.burger-container {
   display: none;
 }
 
@@ -249,7 +248,7 @@
     align-items: center;
     justify-content: space-between;
 
-    a{
+    a {
       height: 24px;
     }
   }
@@ -349,18 +348,17 @@ section.email--form--bottom {
   }
 }
 
-
 /* ~~~~~~~~~~~~~ PRICING PAGE ~~~~~~~~~~~~~~ */
 
-.main--pricing-container{
+.main--pricing-container {
   width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  hr{
-    background: #36536B 0% 0% no-repeat padding-box;
+  hr {
+    background: #36536b 0% 0% no-repeat padding-box;
     opacity: 0.25;
     height: 1px;
     width: 100%;
@@ -370,34 +368,34 @@ section.email--form--bottom {
   }
 }
 
-.h3--pricing, 
-.h4--pricing-card, 
-.h1--card-price{
+.h3--pricing,
+.h4--pricing-card,
+.h1--card-price {
   font-family: var(--font-family-dm-serif-display);
   font-weight: var(--font-weight-regular);
 }
 
-.h3--pricing{
-    font-size: var(--h3-size-big);
-    color: var(--secondary-color-san-juan-blue);
-    letter-spacing: var(--h3-letter-spacing-big);
-    line-height: 44px;
-    margin-bottom: 44px;
-    position: relative;
-    top: -7px;
+.h3--pricing {
+  font-size: var(--h3-size-big);
+  color: var(--secondary-color-san-juan-blue);
+  letter-spacing: var(--h3-letter-spacing-big);
+  line-height: 44px;
+  margin-bottom: 44px;
+  position: relative;
+  top: -7px;
 }
 
-.pricing-card{
+.pricing-card {
   width: 100%;
   max-width: 327px;
   margin-bottom: 55px;
 }
 
-.pricing-card-last{
+.pricing-card-last {
   margin-bottom: 0px;
 }
 
-.h4--pricing-card{
+.h4--pricing-card {
   color: var(--primary-color-dark-pink);
   font-size: var(--h4-size);
   letter-spacing: var(--h4-letter-spacing);
@@ -405,7 +403,7 @@ section.email--form--bottom {
   margin-bottom: 9px;
 }
 
-.p--pricing-card{
+.p--pricing-card {
   color: var(--secondary-color-light-san-juan-blue);
   font-size: var(--body-text-size);
   height: 48px;
@@ -415,21 +413,21 @@ section.email--form--bottom {
   margin-bottom: 30px;
 }
 
-.h1--card-price{
+.h1--card-price {
   font-size: var(--h1-size-small);
   letter-spacing: -0.43px;
   line-height: 77px;
   margin-bottom: 5px;
 }
 
-.ul--features{
+.ul--features {
   padding: 0;
   width: 100%;
   height: 237px;
   text-align: left;
   position: relative;
   margin: 0px 0px 31px 0px;
-  li{
+  li {
     list-style-type: none;
     font-family: var(--font-family-public-sans);
     color: var(--secondary-color-san-juan-blue);
@@ -444,7 +442,7 @@ section.email--form--bottom {
   }
 }
 
-.li--included::before{
+.li--included::before {
   content: url("/assets/shared/desktop/icon-check.svg");
   position: absolute;
   width: 12px;
@@ -452,11 +450,11 @@ section.email--form--bottom {
   left: 0px;
 }
 
-.li--not-included{
+.li--not-included {
   opacity: 0.5;
 }
 
-.button--pricing-card{
+.button--pricing-card {
   color: var(--secondary-color-san-juan-blue);
   border: 1px solid var(--secondary-color-san-juan-blue);
   background-color: transparent;
@@ -469,10 +467,128 @@ section.email--form--bottom {
   padding: 0;
 }
 
-.button--pricing-card:hover{
+.button--pricing-card:hover {
   background-color: var(--secondary-color-san-juan-blue);
   color: #fff;
 }
 
-
 /* ~~~~~~~~~~~~~ END OF PRICING PAGE ~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~ CONTACT FORM ~~~~~~~~~~~~~~ */
+
+.contact--form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0 24px 87px;
+
+  h3 {
+    color: var(--secondary-color-san-juan-blue);
+    font-family: var(--font-family-dm-serif-display);
+    font-size: var(--h3-size-big);
+    letter-spacing: -0.25px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: var(--font-weight-regular);
+    margin-bottom: 13px;
+  }
+  input,
+  textarea {
+    border: none;
+    border-bottom: 1px solid var(--secondary-color-san-juan-blue-semi-opaque);
+    background: none;
+    padding: 0 20px 22px;
+    color: var(--secondary-color-san-juan-blue);
+    &,
+    &::placeholder {
+      font-family: var(--font-family-public-sans);
+      letter-spacing: var(--buttons-inputs-text-spacing);
+      line-height: var(--h3-line-height-small);
+      font-size: var(--buttons-inputs-text-size);
+      text-align: left;
+      font-weight: var(--font-weight-thin-medium);
+    }
+    &::placeholder {
+      color: var(--secondary-color-san-juan-blue-semi-opaque);
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  textarea {
+    resize: none;
+    height: 89px;
+  }
+  input[type="text"],
+  input[type="email"] {
+    height: 42px;
+  }
+  button {
+    align-self: flex-start;
+    border: 1px solid var(--secondary-color-san-juan-blue);
+    border-radius: 24px;
+    padding: 15px 48px 14px 50px;
+    background: none;
+    font-family: var(--font-family-public-sans);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--buttons-inputs-text-size);
+    line-height: var(--buttons-inputs-line-height);
+    color: var(--secondary-color-san-juan-blue);
+    letter-spacing: var(--buttons-inputs-text-spacing);
+  }
+  #subscription--checkbox {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    #subscription {
+      appearance: none;
+      /* display: flex;
+      align-items: center;
+      justify-content: center; */
+      padding: 0;
+      margin: 0;
+      background-color: var(--secondary-color-san-juan-blue);
+      opacity: 0.25;
+      border: none;
+      border-radius: 0;
+      width: 24px;
+      height: 24px;
+      &:checked {
+        background-color: var(--primary-color-dark-pink);
+        opacity: 1;
+        position: relative;
+        &::after {
+          position: absolute;
+          content: url(../assets/shared/desktop/icon-check.svg);
+          filter: brightness(0) invert(1);
+          top:50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+    label {
+      font-family: var(--font-family-public-sans);
+      letter-spacing: var(--buttons-inputs-text-spacing);
+      line-height: var(--h3-line-height-small);
+      font-size: var(--buttons-inputs-text-size);
+      text-align: left;
+      font-weight: var(--font-weight-thin-medium);
+      color: var(--secondary-color-san-juan-blue);
+      height: 100%;
+      width: calc(100% - 50px);
+    }
+  }
+  .error--mssg {
+    font-size: var(--error-message-text-size);
+    letter-spacing: var(--error-message-letter-spacing);
+    line-height: 15px;
+    color: #ff0000;
+    opacity: 0.5;
+    margin: -16px 20px -10px;
+    padding: 0;
+    display: none;
+  }
+}
+/* ~~~~~~~~~~~~~ END OF CONTACT FORM ~~~~~~~~~~~~~~ */
