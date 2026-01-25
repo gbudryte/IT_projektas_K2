@@ -25,17 +25,30 @@ function printEmptyError(inputField) {
   const errorField = inputField.nextElementSibling;
   errorField.textContent = "This field can't be empty";
   errorField.style.display = "block";
+  inputField.style.borderBottom = "1px solid rgba(255,0,0,0.5)";
+  inputField.style.setProperty("--placeholder-color", "rgba(255,0,0,0.5)");
 }
 
 function printEmailError(emailField) {
   const errorField = emailField.nextElementSibling;
-  errorField.textContent = "Please enter a valid email";
+  errorField.textContent = "Please enter a valid email address";
   errorField.style.display = "block";
+  emailField.style.borderBottom = "1px solid rgba(255,0,0,0.5)";
+  emailField.style.color = "rgba(255,0,0,0.5)";
 }
 
 function clearErrors() {
   const errs = document.querySelectorAll(".error--mssg");
   errs.forEach((el) => (el.style.display = "none"));
+  const req_fields = obtainRequiredData();
+  req_fields.forEach((inputField) => {
+    inputField.style.borderBottom =
+      "1px solid var(--secondary-color-san-juan-blue-semi-opaque)";
+    inputField.style.setProperty(
+      "--placeholder-color",
+      "var(--secondary-color-san-juan-blue-semi-opaque",
+    );
+  });
 }
 
 function getTestPrint() {

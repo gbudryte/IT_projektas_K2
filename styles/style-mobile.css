@@ -477,15 +477,15 @@ section.email--form--bottom {
 /* ~~~~~~~~~~~~~ CONTACT FORM ~~~~~~~~~~~~~~ */
 
 #form--page--header {
-    color: var(--secondary-color-san-juan-blue);
-    font-family: var(--font-family-dm-serif-display);
-    font-size: var(--h3-size-big);
-    letter-spacing: -0.25px;
-    line-height: 36px;
-    text-align: center;
-    font-weight: var(--font-weight-regular);
-    margin: 0 24px;
-  }
+  color: var(--secondary-color-san-juan-blue);
+  font-family: var(--font-family-dm-serif-display);
+  font-size: var(--h3-size-big);
+  letter-spacing: -0.25px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: var(--font-weight-regular);
+  margin: 0 24px;
+}
 
 .contact--form {
   display: flex;
@@ -510,7 +510,10 @@ section.email--form--bottom {
       font-weight: var(--font-weight-thin-medium);
     }
     &::placeholder {
-      color: var(--secondary-color-san-juan-blue-semi-opaque);
+      color: var(
+        --placeholder-color,
+        var(--secondary-color-san-juan-blue-semi-opaque)
+      );
     }
     &:focus {
       outline: none;
@@ -560,7 +563,7 @@ section.email--form--bottom {
           position: absolute;
           content: url(../assets/shared/desktop/icon-check.svg);
           filter: brightness(0) invert(1);
-          top:50%;
+          top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
         }
