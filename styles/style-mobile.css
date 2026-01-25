@@ -485,7 +485,7 @@ section.email--form--bottom {
 
 /* ~~~~~~~~~~~~~ END OF PRICING PAGE ~~~~~~~~~~~~~~ */
 
-/* ~~~~~~~~~~~~~ CONTACT FORM ~~~~~~~~~~~~~~ */
+
 
 /* ~~~~~~~~~~~~~ END OF PRICING PAGE ~~~~~~~~~~~~~~ */
 
@@ -598,6 +598,8 @@ section.email--form--bottom {
 }
 
 /* ~~~~~~~~~~~~~ END OF ABOUT PAGE ~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~ CONTACT FORM ~~~~~~~~~~~~~~ */
 #form--page--header {
   color: var(--secondary-color-san-juan-blue);
   font-family: var(--font-family-dm-serif-display);
