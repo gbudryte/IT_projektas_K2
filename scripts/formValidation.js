@@ -46,7 +46,7 @@ function clearErrors() {
       "1px solid var(--secondary-color-san-juan-blue-semi-opaque)";
     inputField.style.setProperty(
       "--placeholder-color",
-      "var(--secondary-color-san-juan-blue-semi-opaque",
+      "var(--secondary-color-san-juan-blue-semi-opaque)",
     );
   });
 }
