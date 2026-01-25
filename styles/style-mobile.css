@@ -544,9 +544,6 @@ section.email--form--bottom {
     gap: 26px;
     #subscription {
       appearance: none;
-      /* display: flex;
-      align-items: center;
-      justify-content: center; */
       padding: 0;
       margin: 0;
       background-color: var(--secondary-color-san-juan-blue);
