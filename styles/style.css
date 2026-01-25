@@ -111,7 +111,6 @@ p{
 
 .partners {
   background-color: var(--secondary-color-mirage-blue);
-  width: 100%;
   padding: 48px 24px;
   text-align: center;
 }
@@ -124,8 +123,9 @@ p{
 }
 
 .partners__title {
-  font-size: var(--h2-size);
-  line-height: var(--h2-line-height);
+  font-size: var(--h3-size);
+  line-height: var(--h3-line-height);
+  letter-spacing: var(--h3-letter-spacing);
   font-family: var(--font-family-dm-serif-display);
   margin-bottom: 16px;
   color: var(--primary-color-link-water-white);
@@ -135,14 +135,16 @@ p{
   max-width: 760px;
   margin: 0 auto 24px;
   color: var(--primary-color-link-water-white);
+  letter-spacing: -0.25px;
+  opacity: 0.7;
 }
 
 .partners__button {
-  padding: 10px 20px;
   border-radius: var(--buttons-border-radius);
   font-family: var(--font-family-public-sans);
   font-size: var(--buttons-inputs-text-size);
   letter-spacing: var(--buttons-inputs-text-spacing);
+  padding: 16px 31.5px;
   cursor: pointer;
   background-color: var(--secondary-color-mirage-blue);
   color: var(--primary-color-link-water-white);
