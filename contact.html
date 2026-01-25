@@ -51,14 +51,59 @@
 
         <div class="burger-container"></div>
       </header>
+      <main>
+        <h3 id="form--page--header">Submit a help request and we’ll get in touch shortly.</h3>
+      
+        <form class="contact--form">
+          <input
+            class="must-fill"
+            type="text"
+            aria-label="name"
+            id="contact-name"
+            placeholder="Name"
+          />
+          <p class="error--mssg"></p>
+          <input
+            class="must-fill"
+            type="email"
+            aria-label="email address"
+            id="contact-email"
+            placeholder="Email Address"
+          />
+          <p class="error--mssg"></p>
+          <input
+            type="text"
+            aria-label="company name"
+            id="contact-company"
+            placeholder="Company Name"
+          />
+          <input
+            type="text"
+            aria-label="title"
+            id="contact-title"
+            placeholder="Title"
+          />
+          <textarea
+            aria-label="message"
+            id="contact-message"
+            rows="4"
+            placeholder="Message"
+          ></textarea>
 
-      Submit a help request and we’ll get in touch shortly. Name Email Address
-      Company Name Title Message Stay up-to-date with company announcements and
-      updates to our API Submit Submit a help request and we’ll get in touch
-      shortly. Name Email Address Company Name Title Message Stay up-to-date
-      with company announcements and updates to our API Submit Join the
-      thousands of innovators already building with us
+          <div id="subscription--checkbox">
+            <input type="checkbox" id="subscription" />
+            <label for="subscription"
+              >Stay up-to-date with company announcements and updates to our
+              API</label
+            >
+          </div>
+          <button type="submit">Submit</button>
+        </form>
 
+        <section>
+          <h4>Join the thousands of innovators already building with us</h4>
+        </section>
+      </main>
       <footer>
         <section class="email--form--bottom">
           <h3>Ready to start?</h3>
