@@ -438,6 +438,7 @@ section.email--form--bottom {
   text-align: left;
   position: relative;
   margin: 0px 0px 31px 0px;
+
   li {
     list-style-type: none;
     font-family: var(--font-family-public-sans);
@@ -502,11 +503,16 @@ section.email--form--bottom {
   h3 {
     font-family: var(--font-family-dm-serif-display);
     font-weight: var(--font-weight-regular);
-  };
+  }
+
+  ;
+
   p {
     font-family: var(--font-family-public-sans);
     font-weight: var(--font-weight-thin-medium);
-  };
+  }
+
+  ;
 }
 
 .main__heading--about {
@@ -540,11 +546,11 @@ section.email--form--bottom {
   line-height: var(--h4-line-height);
 }
 
-.article__para-about{
-    color: var(--secondary-color-light-san-juan-blue);
-    letter-spacing: -0.18px;
-    margin-bottom: 0px;
-    line-height: var(--body-text-line-height);
+.article__para-about {
+  color: var(--secondary-color-light-san-juan-blue);
+  letter-spacing: -0.18px;
+  margin-bottom: 0px;
+  line-height: var(--body-text-line-height);
 }
 
 .image__wrapper-about {
@@ -576,7 +582,7 @@ section.email--form--bottom {
   align-content: center;
 }
 
-.para__card-about{
+.para__card-about {
   margin-top: 13px;
 }
 
@@ -588,7 +594,7 @@ section.email--form--bottom {
   background-color: var(--secondary-color-san-juan-blue);
 }
 
-.card__hr--about-last{
+.card__hr--about-last {
   margin-top: -3px;
   /* margin-bottom: 42px; */
 }
@@ -624,6 +630,7 @@ section.email--form--bottom {
     background: none;
     padding: 0 20px 22px;
     color: var(--secondary-color-san-juan-blue);
+
     &,
     &::placeholder {
       font-family: var(--font-family-public-sans);
@@ -633,24 +640,27 @@ section.email--form--bottom {
       text-align: left;
       font-weight: var(--font-weight-thin-medium);
     }
+
     &::placeholder {
-      color: var(
-        --placeholder-color,
-        var(--secondary-color-san-juan-blue-semi-opaque)
-      );
+      color: var(--placeholder-color,
+          var(--secondary-color-san-juan-blue-semi-opaque));
     }
+
     &:focus {
       outline: none;
     }
   }
+
   textarea {
     resize: none;
     height: 89px;
   }
+
   input[type="text"],
   input[type="email"] {
     height: 42px;
   }
+
   button {
     align-self: flex-start;
     border: 1px solid var(--secondary-color-san-juan-blue);
@@ -664,11 +674,13 @@ section.email--form--bottom {
     color: var(--secondary-color-san-juan-blue);
     letter-spacing: var(--buttons-inputs-text-spacing);
   }
+
   #subscription--checkbox {
     height: 45px;
     display: flex;
     align-items: center;
     gap: 26px;
+
     #subscription {
       appearance: none;
       padding: 0;
@@ -679,10 +691,12 @@ section.email--form--bottom {
       border-radius: 0;
       width: 24px;
       height: 24px;
+
       &:checked {
         background-color: var(--primary-color-dark-pink);
         opacity: 1;
         position: relative;
+
         &::after {
           position: absolute;
           content: url(../assets/shared/desktop/icon-check.svg);
@@ -693,6 +707,7 @@ section.email--form--bottom {
         }
       }
     }
+
     label {
       font-family: var(--font-family-public-sans);
       letter-spacing: var(--buttons-inputs-text-spacing);
@@ -705,6 +720,7 @@ section.email--form--bottom {
       width: calc(100% - 50px);
     }
   }
+
   .error--mssg {
     font-size: var(--error-message-text-size);
     letter-spacing: var(--error-message-letter-spacing);
@@ -716,4 +732,165 @@ section.email--form--bottom {
     display: none;
   }
 }
+
 /* ~~~~~~~~~~~~~ END OF CONTACT FORM ~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~ PARTNERS GRID ~~~~~~~~~~~~~~ */
+
+.section--partners-grid {
+  width: calc(100%-0px);
+  margin: 0 24px 3px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.section--partners-grid-home{
+  height: 670px;
+  padding-top: 80px;
+  margin: 0;
+  background-color: var(--secondary-color-mirage-blue);
+  background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position:  center;
+  background-position-y: -602px;
+  gap: 0;
+}
+
+.heading--partners-grid {
+  font-size: var(--h4-size);
+  font-family: var(--font-family-dm-serif-display);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: -0.18px;
+  color: var(--secondary-color-san-juan-blue);
+  opacity: 0.75;
+}
+
+.partners-grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(115.5px, 1fr));
+  height: 154px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 327px;
+}
+
+.partners-grid-wrapper-home{
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(12deg) brightness(105%) contrast(104%);
+}
+
+.anchor__img--partners-logo {
+  display: block;
+}
+
+.img--partners-logo {
+  filter: var(--secondary-color-san-juan-blue-filter);
+}
+
+/* tesla */
+.anchor__tesla-logo {
+  margin-right: auto;
+}
+
+.tesla-logo {
+  width: 106px;
+}
+
+/* microsoft */
+.anchor__microsoft-logo {
+  margin-left: auto;
+}
+
+.microsoft-logo {
+  width: 119px;
+}
+
+/* hp */
+.anchor__hp-logo {
+  height: 100%;
+  align-content: center;
+}
+
+.hp-logo {
+  width: 115px;
+  display: block;
+}
+
+/* oracle */
+.anchor__oracle-logo {
+  height: 100%;
+  align-content: center;
+  margin-left: auto;
+}
+
+.oracle-logo {
+  width: 108px;
+  margin-left: auto;
+}
+
+/* google*/
+.anchor__google-logo {
+  height: fit-content;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+.google-logo {
+  width: 79px;
+  display: block;
+}
+
+/* nvidia */
+.anchor__nvidia-logo {
+  height: fit-content;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.nvidia-logo {
+  width: 113px;
+  display: block;
+}
+
+/* home */
+
+.article--partners-grid{
+  margin: 0 24px 0 24px;
+}
+
+.article__heading--partners{
+  font-size: var(--h3-size-big);
+  font-family: var(--font-family-dm-serif-display);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: -0.25px;
+  color: var(--primary-color-link-water-white);
+  line-height: 36px;
+  margin-top: 59px;
+  margin-bottom: 5px;
+}
+
+.article__para--partners{
+  color: var(--primary-color-link-water-white);
+  font-family: var(--font-family-public-sans);
+  font-size: 15px;
+  opacity: 0.7;
+  margin-bottom: 68px;
+  line-height: 28px;
+}
+
+.article__button--about-us{
+  height: 48px;
+  width: 129px;
+  border-radius: var(--buttons-border-radius);
+  background-color: transparent;
+  font-family: var(--font-family-public-sans);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color-link-water-white);
+  border: 1px solid #FBFCFE;
+  margin-bottom: 80px;
+}
+
+
+/* ~~~~~~~~~~~~~ END OF PARTNERS GRID ~~~~~~~~~~~~~~ */
