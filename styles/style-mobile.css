@@ -279,6 +279,10 @@ section.email--form--bottom {
     font-weight: var(--font-weight-regular);
   }
 
+  div.input--button--wrapper{
+    padding: 0;
+    margin: 0;
+
   input {
     text-align: left;
     padding: 0 27px;
@@ -323,6 +327,7 @@ section.email--form--bottom {
     font-size: var(--buttons-inputs-text-size);
     line-height: var(--buttons-inputs-line-height);
   }
+}
 
   div {
     margin-top: 16px;
