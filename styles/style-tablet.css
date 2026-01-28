@@ -4,4 +4,33 @@
   .container{
     background-color: red;
   }
+
+  /* ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
+
+.logo--and--links {
+  padding: 31px 40px;
+  flex-direction: row;
+  gap:64px;
+  justify-content: space-between;
+  background-position: 378px -136px;
+
+  #footer--links--text {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+  }
+
+  #footer--links--icons {
+    margin-left: 74px;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ~~~~~~~~~~~~~ END OF FOOTER ~~~~~~~~~~~~~~ */
+
 }
