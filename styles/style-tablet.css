@@ -37,7 +37,7 @@
 
   section.email--form--bottom {
     padding: 100px 161px 100px 162px;
-    gap:24px;
+    gap: 24px;
   }
 
   section.email--form--top {
@@ -67,7 +67,7 @@
         margin: 0;
       }
     }
-    div.link--wrapper{
+    div.link--wrapper {
       margin: 0;
     }
   }

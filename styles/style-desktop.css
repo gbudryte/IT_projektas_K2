@@ -1,8 +1,74 @@
 @import "/styles/style.css";
 
-@media only screen and (min-width: 1440px){
-  .container{
-    background-color: green;
+@media only screen and (min-width: 1440px) {
+  .container {
+    background-color: #edf3f8;
     max-width: 1440px;
+  }
+
+  /* ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
+  footer {
+    div.logo--and--links {
+      padding: 31px 164px 31px 165px;
+      flex-direction: row;
+      gap: 64px;
+      justify-content: space-between;
+      background-position: 1050px -136px;
+      #footer--links--icons {
+        margin-left: 496px;
+        a:hover {
+          img {
+            filter: invert(56%) sepia(21%) saturate(1478%) hue-rotate(293deg)
+              brightness(91%) contrast(89%);
+          }
+        }
+      }
+      #footer--links--text {
+        a:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  /* ~~~~~~~~~~~~~ END OF FOOTER ~~~~~~~~~~~~~~ */
+
+  /* ~~~~~~~~~~~~~ EMAIL FORM ~~~~~~~~~~~~~~ */
+
+  section.email--form--bottom {
+    padding: 100px 161px 100px 162px;
+    gap: 24px;
+  }
+
+  section.email--form--top {
+    padding: 54px 98px 100px 97px;
+    gap: 16px;
+  }
+  section.email--form--top,
+  section.email--form--bottom {
+    h3 {
+      font-size: var(--h2-size);
+      letter-spacing: -0.37px;
+      line-height: 56px;
+      margin: 0;
+    }
+    div.input--button--wrapper {
+      position: relative;
+      width: 445px;
+      input {
+        width: 100%;
+        padding-right: 173px;
+        margin: 0;
+      }
+      button {
+        width: 173px;
+        position: absolute;
+        left: 272px;
+        margin: 0;
+      }
+    }
+    div.link--wrapper {
+      margin: 0;
+    }
   }
 }
