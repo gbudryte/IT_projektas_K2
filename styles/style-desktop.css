@@ -36,21 +36,28 @@
   /* ~~~~~~~~~~~~~ EMAIL FORM ~~~~~~~~~~~~~~ */
 
   section.email--form--bottom {
-    padding: 100px 161px 100px 162px;
-    gap: 24px;
+    padding: 100px 165px 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    div.input--button--wrapper {
+      margin-bottom: 20px;
+    }
   }
 
   section.email--form--top {
     padding: 54px 98px 100px 97px;
     gap: 16px;
-  }
-  section.email--form--top,
-  section.email--form--bottom {
     h3 {
       font-size: var(--h2-size);
       letter-spacing: -0.37px;
       line-height: 56px;
       margin: 0;
+    }
+  }
+  section.email--form--top,
+  section.email--form--bottom {
+    h3 {
+      text-align: left;
     }
     div.input--button--wrapper {
       position: relative;
