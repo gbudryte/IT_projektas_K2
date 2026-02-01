@@ -894,3 +894,111 @@ section.email--form--bottom {
 
 
 /* ~~~~~~~~~~~~~ END OF PARTNERS GRID ~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~ HOME PAGE PERKS ~~~~~~~~~~~~~~ */
+
+.section--perks-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.img--script-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  background-color: var(--secondary-color-mirage-blue);
+  border-radius: 8px;
+  box-shadow: 25px 25px 80px #36536B4D;
+  margin-top: 80px;
+  margin-bottom: 47px;
+}
+
+.img--script-toolbar{
+  height: 30px;
+}
+
+.img--script-content{
+  width: 228px;
+  padding: 27px 0 24px 24px;
+
+}
+
+.article--home-perks{
+  padding: 0 24px 0 24px;
+}
+
+.h3--home-perks{
+  font-family: var(--font-family-dm-serif-display);
+  font-size: 36px;
+  font-weight: var(--font-weight-regular);
+  line-height: 49px;
+  letter-spacing: -0.28px;
+  margin-bottom: 12px;
+}
+
+.para--home-perks{
+  font-size: var(--body-text-size);
+  color: var(--secondary-color-light-san-juan-blue);
+  margin-bottom: 0;
+}
+
+.perks-phone-mockups-container{
+  display: flex;
+  height: 289px;
+  width: 328px;
+  margin-top: 88px;
+  margin-bottom: 47px;
+  gap: 27px
+}
+
+.perks-phone-mockup-wrapper{
+  position: relative;
+  height: 100%;
+  width: 149px;
+  
+}
+
+.home-perks-phone{
+  object-fit: fill;
+  height: 100%;
+}
+
+.home-perks-phone-screen{
+  width: 134px;
+  height: 269px;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  box-shadow: 25px 25px 80px #36536B4D;
+}
+
+.perks-notification-wrapper{
+  width: 102px;
+  height: 111px;
+  background-color: #fff;
+  position: absolute;
+  top: 82px;
+  left: 25px;
+}
+
+.perks-notification-wrapper{
+  padding: 21px 11px 0 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button--phone-notification{
+  height: 17px;
+  border-radius: var(--buttons-border-radius);
+  border: none;
+  background-color: var(--primary-color-dark-pink);
+  color: var(--primary-color-link-water-white);
+  font-size: 6px;
+  position: relative;
+  bottom: -8.5px;
+}
+
+/* ~~~~~~~~~~~~~ END OF HOME PAGE PERKS ~~~~~~~~~~~~~~ */
