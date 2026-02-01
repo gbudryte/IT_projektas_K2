@@ -7,26 +7,24 @@
   }
 
   /* ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
-  footer {
-    div.logo--and--links {
-      padding: 31px 164px 31px 165px;
-      flex-direction: row;
-      gap: 64px;
-      justify-content: space-between;
-      background-position: 1050px -136px;
-      #footer--links--icons {
-        margin-left: 496px;
-        a:hover {
-          img {
-            filter: invert(56%) sepia(21%) saturate(1478%) hue-rotate(293deg)
-              brightness(91%) contrast(89%);
-          }
+  div.logo--and--links {
+    padding: 31px 164px 31px 165px;
+    flex-direction: row;
+    gap: 64px;
+    justify-content: space-between;
+    background-position: 1050px -136px;
+    #footer--links--icons {
+      margin-left: 496px;
+      a:hover {
+        img {
+          filter: invert(56%) sepia(21%) saturate(1478%) hue-rotate(293deg)
+            brightness(91%) contrast(89%);
         }
       }
-      #footer--links--text {
-        a:hover {
-          opacity: 1;
-        }
+    }
+    #footer--links--text {
+      a:hover {
+        opacity: 1;
       }
     }
   }
@@ -65,11 +63,12 @@
     }
   }
 
-  section.email--form--bottom,
+  section.email--form--top,
   section.email--form--bottom {
-    
-    button:hover {
-      color: var(--secondary-color-charm-pink);
+    div.input--button--wrapper button:hover {
+      background-color: var(--secondary-color-charm-pink);
     }
   }
 }
+
+/* ~~~~~~~~~~~~~ END OF EMAIL FORM ~~~~~~~~~~~~~~ */
