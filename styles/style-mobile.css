@@ -279,49 +279,55 @@ section.email--form--bottom {
     font-weight: var(--font-weight-regular);
   }
 
-  input {
-    text-align: left;
-    padding: 0 27px;
-    background: var(--primary-color-link-water-white) 0% 0% no-repeat padding-box;
-    letter-spacing: 0;
-    color: var(--secondary-color-san-juan-blue);
-    opacity: 1;
-  }
+  div.input--button--wrapper {
+    padding: 0;
+    margin: 0;
 
-  input:focus {
-    outline: none;
-  }
+    input {
+      text-align: left;
+      padding: 0 27px;
+      background: var(--primary-color-link-water-white) 0% 0% no-repeat
+        padding-box;
+      letter-spacing: 0;
+      color: var(--secondary-color-san-juan-blue);
+      opacity: 1;
+    }
 
-  input::placeholder {
-    color: var(--secondary-color-san-juan-blue);
-    opacity: 0.5;
-    letter-spacing: 0;
-  }
+    input:focus {
+      outline: none;
+    }
 
-  button {
-    background: var(--primary-color-dark-pink) 0% 0% no-repeat padding-box;
-    letter-spacing: var(--buttons-inputs-text-spacing);
-    color: var(--primary-color-link-water-white);
-    text-align: center;
-  }
+    input::placeholder {
+      color: var(--secondary-color-san-juan-blue);
+      opacity: 0.5;
+      letter-spacing: 0;
+    }
 
-  input,
-  button {
-    border-radius: var(--buttons-border-radius);
-    width: 100%;
-    box-shadow: var(--primary-buttons-box-shadow);
-    border: none;
-    height: 48px;
-    margin: 8px 0;
-  }
+    button {
+      background: var(--primary-color-dark-pink) 0% 0% no-repeat padding-box;
+      letter-spacing: var(--buttons-inputs-text-spacing);
+      color: var(--primary-color-link-water-white);
+      text-align: center;
+    }
 
-  input,
-  button,
-  input::placeholder {
-    font-family: var(--font-family-public-sans);
-    font-weight: var(--font-weight-bold);
-    font-size: var(--buttons-inputs-text-size);
-    line-height: var(--buttons-inputs-line-height);
+    input,
+    button {
+      border-radius: var(--buttons-border-radius);
+      width: 100%;
+      box-shadow: var(--primary-buttons-box-shadow);
+      border: none;
+      height: 48px;
+      margin: 8px 0;
+    }
+
+    input,
+    button,
+    input::placeholder {
+      font-family: var(--font-family-public-sans);
+      font-weight: var(--font-weight-bold);
+      font-size: var(--buttons-inputs-text-size);
+      line-height: var(--buttons-inputs-line-height);
+    }
   }
 
   div {
@@ -486,10 +492,7 @@ section.email--form--bottom {
 
 /* ~~~~~~~~~~~~~ END OF PRICING PAGE ~~~~~~~~~~~~~~ */
 
-
-
 /* ~~~~~~~~~~~~~ END OF PRICING PAGE ~~~~~~~~~~~~~~ */
-
 
 /* ~~~~~~~~~~~~~ ABOUT PAGE ~~~~~~~~~~~~~~ */
 
@@ -504,15 +507,10 @@ section.email--form--bottom {
     font-family: var(--font-family-dm-serif-display);
     font-weight: var(--font-weight-regular);
   }
-
-  ;
-
   p {
     font-family: var(--font-family-public-sans);
     font-weight: var(--font-weight-thin-medium);
   }
-
-  ;
 }
 
 .main__heading--about {
@@ -560,7 +558,6 @@ section.email--form--bottom {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 105px;
-
 }
 
 .section--about-cards {
@@ -642,8 +639,10 @@ section.email--form--bottom {
     }
 
     &::placeholder {
-      color: var(--placeholder-color,
-          var(--secondary-color-san-juan-blue-semi-opaque));
+      color: var(
+        --placeholder-color,
+        var(--secondary-color-san-juan-blue-semi-opaque)
+      );
     }
 
     &:focus {
@@ -747,14 +746,14 @@ section.email--form--bottom {
   gap: 24px;
 }
 
-.section--partners-grid-home{
+.section--partners-grid-home {
   height: 670px;
   padding-top: 80px;
   margin: 0;
   background-color: var(--secondary-color-mirage-blue);
   background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
   background-repeat: no-repeat;
-  background-position:  center;
+  background-position: center;
   background-position-y: -602px;
   gap: 0;
 }
@@ -777,8 +776,9 @@ section.email--form--bottom {
   width: 327px;
 }
 
-.partners-grid-wrapper-home{
-  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(12deg) brightness(105%) contrast(104%);
+.partners-grid-wrapper-home {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%)
+    hue-rotate(12deg) brightness(105%) contrast(104%);
 }
 
 .anchor__img--partners-logo {
@@ -856,11 +856,11 @@ section.email--form--bottom {
 
 /* home */
 
-.article--partners-grid{
+.article--partners-grid {
   margin: 0 24px 0 24px;
 }
 
-.article__heading--partners{
+.article__heading--partners {
   font-size: var(--h3-size-big);
   font-family: var(--font-family-dm-serif-display);
   font-weight: var(--font-weight-regular);
@@ -871,7 +871,7 @@ section.email--form--bottom {
   margin-bottom: 5px;
 }
 
-.article__para--partners{
+.article__para--partners {
   color: var(--primary-color-link-water-white);
   font-family: var(--font-family-public-sans);
   font-size: 15px;
@@ -880,7 +880,7 @@ section.email--form--bottom {
   line-height: 28px;
 }
 
-.article__button--about-us{
+.article__button--about-us {
   height: 48px;
   width: 129px;
   border-radius: var(--buttons-border-radius);
@@ -888,48 +888,46 @@ section.email--form--bottom {
   font-family: var(--font-family-public-sans);
   font-weight: var(--font-weight-bold);
   color: var(--primary-color-link-water-white);
-  border: 1px solid #FBFCFE;
+  border: 1px solid #fbfcfe;
   margin-bottom: 80px;
 }
-
 
 /* ~~~~~~~~~~~~~ END OF PARTNERS GRID ~~~~~~~~~~~~~~ */
 
 /* ~~~~~~~~~~~~~ HOME PAGE PERKS ~~~~~~~~~~~~~~ */
 
-.section--perks-container{
+.section--perks-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.img--script-wrapper{
+.img--script-wrapper {
   display: flex;
   flex-direction: column;
   width: 328px;
   background-color: var(--secondary-color-mirage-blue);
   border-radius: 8px;
-  box-shadow: 25px 25px 80px #36536B4D;
+  box-shadow: 25px 25px 80px #36536b4d;
   margin-top: 80px;
   margin-bottom: 47px;
 }
 
-.img--script-toolbar{
+.img--script-toolbar {
   height: 30px;
 }
 
-.img--script-content{
+.img--script-content {
   width: 228px;
   padding: 27px 0 24px 24px;
-
 }
 
-.article--home-perks{
+.article--home-perks {
   padding: 0 24px 0 24px;
 }
 
-.h3--home-perks{
+.h3--home-perks {
   font-family: var(--font-family-dm-serif-display);
   font-size: 36px;
   font-weight: var(--font-weight-regular);
@@ -938,43 +936,42 @@ section.email--form--bottom {
   margin-bottom: 12px;
 }
 
-.para--home-perks{
+.para--home-perks {
   font-size: var(--body-text-size);
   color: var(--secondary-color-light-san-juan-blue);
   margin-bottom: 0;
 }
 
-.perks-phone-mockups-container{
+.perks-phone-mockups-container {
   display: flex;
   height: 289px;
   width: 328px;
   margin-top: 88px;
   margin-bottom: 47px;
-  gap: 27px
+  gap: 27px;
 }
 
-.perks-phone-mockup-wrapper{
+.perks-phone-mockup-wrapper {
   position: relative;
   height: 100%;
   width: 149px;
-  
 }
 
-.home-perks-phone{
+.home-perks-phone {
   object-fit: fill;
   height: 100%;
 }
 
-.home-perks-phone-screen{
+.home-perks-phone-screen {
   width: 134px;
   height: 269px;
   position: absolute;
   left: 10px;
   top: 7px;
-  box-shadow: 25px 25px 80px #36536B4D;
+  box-shadow: 25px 25px 80px #36536b4d;
 }
 
-.perks-notification-wrapper{
+.perks-notification-wrapper {
   width: 102px;
   height: 111px;
   background-color: #fff;
@@ -983,14 +980,14 @@ section.email--form--bottom {
   left: 25px;
 }
 
-.perks-notification-wrapper{
+.perks-notification-wrapper {
   padding: 21px 11px 0 11px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.button--phone-notification{
+.button--phone-notification {
   height: 17px;
   border-radius: var(--buttons-border-radius);
   border: none;

@@ -1,8 +1,74 @@
 @import "/styles/style.css";
 
-@media only screen and (min-width: 1440px){
-  .container{
-    background-color: green;
+@media only screen and (min-width: 1440px) {
+  .container {
+    background-color: #edf3f8;
     max-width: 1440px;
   }
+
+  /* ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
+  div.logo--and--links {
+    padding: 31px 164px 31px 165px;
+    flex-direction: row;
+    gap: 64px;
+    justify-content: space-between;
+    background-position: 1050px -136px;
+    #footer--links--icons {
+      margin-left: 496px;
+      a:hover {
+        img {
+          filter: invert(56%) sepia(21%) saturate(1478%) hue-rotate(293deg)
+            brightness(91%) contrast(89%);
+        }
+      }
+    }
+    #footer--links--text {
+      a:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  /* ~~~~~~~~~~~~~ END OF FOOTER ~~~~~~~~~~~~~~ */
+
+  /* ~~~~~~~~~~~~~ EMAIL FORM ~~~~~~~~~~~~~~ */
+
+  section.email--form--bottom {
+    padding: 100px 165px 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    div.input--button--wrapper {
+      margin-bottom: 20px;
+    }
+    h3 {
+      text-align: left;
+    }
+  }
+
+  section.email--form--top {
+    padding: 0;
+    gap: 16px;
+    align-items: start;
+    margin-left: 165px;
+    width: 38%;
+    h3 {
+      font-size: var(--h1-size-large);
+      letter-spacing: -0.55px;
+      line-height: var(--h1-line-height-large);
+      margin-bottom: 8px;
+      text-align: left;
+    }
+    div.link--wrapper {
+      margin-left: 27px;
+    }
+  }
+
+  section.email--form--top,
+  section.email--form--bottom {
+    div.input--button--wrapper button:hover {
+      background-color: var(--secondary-color-charm-pink);
+    }
+  }
 }
+
+/* ~~~~~~~~~~~~~ END OF EMAIL FORM ~~~~~~~~~~~~~~ */
