@@ -3,7 +3,7 @@
 @media only screen and (min-width: 1440px) {
   .container {
     background-color: #edf3f8;
-    max-width: 1440px;
+    /* max-width: 1440px; */
   }
 
   /* ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
@@ -47,10 +47,11 @@
 
   section.email--form--top {
     padding: 0;
-    gap: 16px;
+    gap: 24px;
     align-items: start;
     margin-left: 165px;
-    width: 38%;
+    width: 546px;
+    height: 348px;
     h3 {
       font-size: var(--h1-size-large);
       letter-spacing: -0.55px;
@@ -69,6 +70,99 @@
       background-color: var(--secondary-color-charm-pink);
     }
   }
+/* ~~~~~~~~~~~~~ END OF EMAIL FORM ~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
+  .header--home-page{
+      grid-template-areas:
+    "nav nav"
+    "email phone";
+    height: fit-content;
+  }
+
+  .header__circle-wrapper{
+    grid-area: 1 / 2/ 3 / 3 ;
+    height: 720px;
+  }
+
+  .header__circle--home-page {
+    left: auto;
+    right: -61%;
+    top: -172px;
+    width: 780px;
+    height: 780px;
+  }
+
+.header__circle--other-pages{
+    right: -160px;
+    top: -527px;
+    width: 780px;
+    height: 780px;
 }
 
-/* ~~~~~~~~~~~~~ END OF EMAIL FORM ~~~~~~~~~~~~~~ */
+    .nav__wrapper{
+    height: fit-content;
+    margin: 40px 165px 0 165px;
+    justify-content: start;
+  }
+
+  .anchor--payapi{
+    margin-right: 64px;
+  }
+
+  .nav__menu{
+    width: 232px;
+    max-width: 232px;
+    justify-content: space-between;
+    margin-right: 506px;
+  }
+
+  .nav__ul{
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+  }
+
+  .nav__button--demo{
+    margin-left: auto;
+  }
+
+  .nav__button--demo:hover{
+    opacity: 0.7;
+  }
+
+  .div--phone-mockup-shadow{
+    height: 484px;
+    width: 250px;
+    border-radius: 34px;
+    margin-top: 74px;
+    margin-bottom: 75px;
+  }
+
+  .home--phone-mockup{
+    width: 258px;
+    height: 499px;
+    top: -7px;
+    left: -4px;
+  }
+
+  .home--phone-notification{
+    width: 218px;
+    height: 87px;
+    top: 166px;
+    left: 16px;
+  }
+
+  .email--form--top{
+    margin-top: 149px;
+    height: 348px;
+  }
+
+/* ~~~~~~~~~~~~~END OF HEADER ~~~~~~~~~~~~~~ */
+
+}
+
+
+
+
