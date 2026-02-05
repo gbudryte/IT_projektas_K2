@@ -537,7 +537,6 @@ section.email--form--bottom {
 .article__heading-about {
   font-size: var(--h4-size);
   margin-bottom: 8px;
-  font-family: var(--h4-size);
   letter-spacing: var(--h4-letter-spacing);
   height: 33px;
   align-content: center;
