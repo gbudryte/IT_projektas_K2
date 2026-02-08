@@ -4,4 +4,16 @@
   .container{
     background-color: red;
   }
+  
+  .partners-grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, auto);
+  grid-auto-flow: row;
+  gap: 64px;
+  width: min(327px, 100%);
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+}
 }
