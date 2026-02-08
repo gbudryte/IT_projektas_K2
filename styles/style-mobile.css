@@ -548,6 +548,8 @@ section.email--form--bottom {
   letter-spacing: -0.18px;
   margin-bottom: 0px;
   line-height: var(--body-text-line-height);
+  font-size: var(--body-text-size);
+  line-height: var(--body-text-line-height);
 }
 
 .full-width-picture {
