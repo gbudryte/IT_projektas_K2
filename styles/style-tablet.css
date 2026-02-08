@@ -1,7 +1,6 @@
 @import "/styles/style.css";
 
 @media only screen and (min-width: 768px) {
-
   /* ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
 
   .logo--and--links {
@@ -78,7 +77,6 @@
     width: auto;
     .main__heading--about {
       height: auto;
-      width: 100%;
       font-size: var(--h2-size);
       padding: 0 58px;
       letter-spacing: var(--h2-letter-spacing);
@@ -87,7 +85,6 @@
     }
 
     .main__article--about {
-      width: 100%;
       padding: 0;
       margin-bottom: -4px;
       gap: 72px;
@@ -98,7 +95,6 @@
         gap: 10px;
         justify-content: space-between;
         align-items: start;
-        width: 100%;
       }
 
       .article__heading-about {
@@ -118,13 +114,9 @@
       }
     }
 
-    .image__wrapper-about {
-      height: 300px;
-      width: 100%;
-      background-image: url("/assets/about/mobile/image-team-members.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      margin-top: 105px;
+    .full-width-picture{
+      margin-top: 56px;
+      margin-bottom: 16px;
     }
 
     .section--about-cards {
@@ -156,7 +148,8 @@
         background-color: var(--secondary-color-san-juan-blue);
       }
 
-      .card__hr--about-sides, .card__hr--about {
+      .card__hr--about-sides,
+      .card__hr--about {
         width: 223px;
         margin: 0px;
       }

@@ -550,13 +550,19 @@ section.email--form--bottom {
   line-height: var(--body-text-line-height);
 }
 
-.image__wrapper-about {
-  height: 300px;
-  width: 100%;
-  background-image: url("/assets/about/mobile/image-team-members.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+.full-width-picture {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   margin-top: 105px;
+}
+
+.full-width-picture img {
+  width: 100%;
+  height: auto;
 }
 
 .section--about-cards {

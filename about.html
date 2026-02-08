@@ -80,7 +80,20 @@
           </div>
         </article>
 
-        <!-- <div class="image__wrapper-about"></div> -->
+        <picture class="full-width-picture">
+          <source
+            srcset="assets/about/desktop/image-team-members.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="assets/about/tablet/image-team-members.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            src="assets/about/mobile/image-team-members.jpg"
+            alt="Picture of three of our core team members (Jonas, Agnė and Ernestas) working at a coffee shop"
+          />
+        </picture>
 
         <section class="section--about-cards">
           <div class="card__wrapper-about">
