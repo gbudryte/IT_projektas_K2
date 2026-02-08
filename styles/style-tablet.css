@@ -71,4 +71,58 @@
       margin: 0;
     }
   }
+/* ~~~~~~~~~~~~~ END OF EMAIL FORM ~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~ PRICING PAGE ~~~~~~~~~~~~~~ */
+.main--pricing-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  align-items: start;
+  text-align: center;
+  padding: 0 40px;
+}
+
+/* pricing heading */
+.h3--pricing {
+  grid-column: 1 / -1;
+  margin-bottom: 56px;
+}
+
+/* cards */
+.pricing-card,
+.pricing-card-last {
+  max-width: none;
+  margin: 0;
+}
+
+/* divider */
+.main--pricing-container hr {
+  margin: 24px 0;
+}
+
+/* feature list */
+.ul--features {
+  height: auto;
+  margin: 0 0 32px 0;
+  padding: 0;
+  text-align: left;
+}
+
+.ul--features li {
+  left: 0;
+  transform: none;
+  width: auto;
+  margin: 0 0 12px 0;
+  padding-left: 36px;
+}
+
+/* button */
+.button--pricing-card {
+  margin-top: 8px;
+}
+
+/* ~~~~~~~~~~~~~ END OF PRICING PAGE ~~~~~~~~~~~~~~ */
 }

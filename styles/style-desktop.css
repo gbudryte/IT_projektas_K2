@@ -69,6 +69,59 @@
       background-color: var(--secondary-color-charm-pink);
     }
   }
-}
-
 /* ~~~~~~~~~~~~~ END OF EMAIL FORM ~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~ PRICING PAGE ~~~~~~~~~~~~~~ */
+
+  .main--pricing-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: start;
+    text-align: left;
+    padding: 0 165px;
+  }
+
+  /* Pricing title */
+  .h3--pricing {
+    grid-column: 1 / -1;
+    margin-bottom: 72px;
+    font-size: var(--h3-size-big);
+    color: var(--secondary-color-san-juan-blue);
+  }
+
+  /* Cards */
+  .pricing-card,
+  .pricing-card-last {
+    max-width: none;
+    margin: 0;
+  }
+
+  /* Divider */
+  .main--pricing-container hr {
+    margin: 24px 0;
+  }
+
+  /* Feature list */
+  .ul--features {
+    margin: 0 0 32px 0;
+    padding: 0;
+    height: auto;
+  }
+
+  .ul--features li {
+    list-style: none;
+    padding-left: 36px;
+    margin: 0 0 12px 0;
+    transform: none;
+    left: 0;
+    width: auto;
+  }
+
+  /* Buttons */
+  .button--pricing-card {
+    margin-top: 16px;
+  }
+}
+/* ~~~~~~~~~~~~~ END OF PRICING PAGE ~~~~~~~~~~~~~~ */
