@@ -204,6 +204,15 @@
   margin-bottom: 40px;
 }
 
+.article__button--about-us{
+  cursor: pointer;
+}
+
+.article__button--about-us:hover{
+  background-color: #fff;
+  border: 1px solid var(--primary-color-link-water-white);
+  color: var(--secondary-color-mirage-blue);
+}
 .partners-grid-wrapper-home{
   width: 536px;
   height: 103px;
