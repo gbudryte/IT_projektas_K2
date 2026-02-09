@@ -204,10 +204,6 @@
   margin-bottom: 40px;
 }
 
-.article__button--about-us{
-  cursor: pointer;
-}
-
 .article__button--about-us:hover{
   background-color: #fff;
   border: 1px solid var(--primary-color-link-water-white);
