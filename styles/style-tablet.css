@@ -80,12 +80,12 @@
 
   /* ~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
 
-.header--home-page{
-  height: 439px;
-}
+  .header--home-page {
+    height: 439px;
+  }
 
   .nav--menu-logo,
-  .burger-container {
+  .burger-container div {
     display: none;
   }
 
@@ -93,9 +93,10 @@
     top: -663px;
     width: 949px;
     height: 949px;
+    position:absolute;
   }
 
-  .header__circle--other-pages{
+  .header__circle--other-pages {
     top: -464px;
     right: -505px;
   }
@@ -135,6 +136,7 @@
     border-radius: var(--buttons-border-radius);
     background-color: var(--primary-color-dark-pink);
     border: none;
+
     span {
       font-size: 15px;
       color: var(--primary-color-link-water-white);
@@ -147,7 +149,7 @@
     }
   }
 
-  .anchor--payapi{
+  .anchor--payapi {
     display: flex;
 
   }
@@ -159,24 +161,24 @@
     justify-content: space-between;
   }
 
-  .nav__wrapper--other-pages{
+  .nav__wrapper--other-pages {
     margin-bottom: 85px;
   }
 
-  .div--phone-mockup-shadow{
+  .div--phone-mockup-shadow {
     width: 150px;
     height: 293px;
     margin-top: 53px;
     margin-bottom: 0px;
   }
 
-  .home--phone-mockup{
+  .home--phone-mockup {
     top: -2px;
     width: 156px;
     height: 299px;
   }
 
-  .home--phone-notification{
+  .home--phone-notification {
     left: 10px;
     top: 97px;
     width: 131px;

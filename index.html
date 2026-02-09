@@ -18,10 +18,8 @@
 <body>
 	<div class="container">
 		<header class="header header--home-page">
-			<div class="header__circle-wrapper">
 				<img src="/assets/shared/desktop/bg-pattern-circle.svg" alt="circle"
 					class="header__circle header__circle--home-page" />
-			</div>
 
 			<div class="nav__wrapper nav__wrapper--home-page">
 				
@@ -101,15 +99,15 @@
 					<button class="article__button--about-us">About Us</button>
 				</article>
 			</section>
-
+			
 			<section class="section--perks-container">
-				<div class="img--script-wrapper">
+				<picture class="img--script-wrapper">
 					<img src="./assets/home/desktop/from-figma/toolbar.svg" class="img--script-toolbar" alt="toolbar" />
 					<img src="./assets/home/desktop/from-figma/_form id=_form-id_ m.svg" class="img--script-content"
 						alt="script" />
-				</div>
+				</picture>
 
-				<article class="article--home-perks">
+				<article class="article--home-perks article--home-perks-first">
 					<h3 class="h3--home-perks">Easy to implement</h3>
 					<p class="para--home-perks">
 						Our API comes with just a few lines of code. You’ll be up and
@@ -118,7 +116,7 @@
 					</p>
 				</article>
 
-				<div class="perks-phone-mockups-container">
+				<picture class="perks-phone-mockups-container">
 					<div class="perks-phone-mockup-wrapper">
 						<img src="./assets/home/desktop/from-figma/phone.svg" alt="phone frame"
 							class="home-perks-phone" />
@@ -137,10 +135,10 @@
 							<button class="button--phone-notification">Dismiss</button>
 						</div>
 					</div>
-				</div>
+				</picture>
 
-				<article class="article--home-perks">
-					<h3 class="h3--home-perks">Simple UI & UX</h3>
+				<article class="article--home-perks article--home-perks-second">
+					<h3 class="h3--home-perks h3--home-perks-second">Simple UI & UX</h3>
 					<p class="para--home-perks">
 						Our pre-built form is easy to integrate in your app or website’s
 						checkout flow and designed to optimize conversion.
@@ -148,9 +146,8 @@
 				</article>
 			</section>
 
-			<section class="features">
-				<div class="features__container">
-					<div class="feature">
+			<section class="section--features">
+					<div class="feature-wrapper">
 						<img src="/assets/shared/features - home/icon-personal-finances.svg" alt="Personal Finances"
 							class="feature__img" />
 						<h3 class="feature__title">Personal Finances</h3>
@@ -161,7 +158,7 @@
 						</p>
 					</div>
 
-					<div class="feature">
+					<div class="feature-wrapper">
 						<img src="/assets/shared/features - home/icon-banking-and-coverage.svg" alt="Banking & Coverage"
 							class="feature__img" />
 						<h3 class="feature__title">Banking & Coverage</h3>
@@ -172,17 +169,16 @@
 						</p>
 					</div>
 
-					<div class="feature">
+					<div class="feature-wrapper">
 						<img src="/assets/shared/features - home/icon-consumer-payments.svg" alt="Consumer Payments"
 							class="feature__img" />
 						<h3 class="feature__title">Consumer Payments</h3>
-						<p class="feature__text">
+						<p class="feature__text feature__text--last">
 							It’s easier to set up secure bank payments with us through a
 							flow designed with the user experience in mind. Customers could
 							instantly authenticate their account.
 						</p>
 					</div>
-				</div>
 			</section>
 		</main>
 

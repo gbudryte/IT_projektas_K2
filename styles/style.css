@@ -84,17 +84,17 @@ h1, h2, h3, h4, h5, h6{
   font-family: var(--font-family-public-sans);
   color: var(--secondary-color-san-juan-blue);
   margin: 0 0 16px;
-}
+} 
 
 p{
   margin: 0 0 16px;
   color: var(--secondary-color-mirage-blue);
-}
+} 
 
-.pricing h2, .pricing h3 {
+/* .pricing h2, .pricing h3 {
   color: var(--primary-color-dark-pink);
-}
-
+} */
+/* 
 .features {
   background-color: var(--primary-color-link-water-white);
   width: 100%;
@@ -142,4 +142,4 @@ p{
   .feature{
     padding: 32px;
   }
-}
+} */

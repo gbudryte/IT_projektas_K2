@@ -81,14 +81,14 @@
     height: fit-content;
   }
 
-  .header__circle-wrapper{
+  /* .header__circle-wrapper{
     grid-area: 1 / 2/ 3 / 3 ;
     height: 720px;
-  }
+  } */
 
   .header__circle--home-page {
     left: auto;
-    right: -61%;
+    right: -530px;
     top: -172px;
     width: 780px;
     height: 780px;
@@ -138,6 +138,8 @@
     border-radius: 34px;
     margin-top: 74px;
     margin-bottom: 75px;
+    justify-self: end;
+    right: 264px;
   }
 
   .home--phone-mockup{
@@ -159,7 +161,248 @@
     height: 348px;
   }
 
-/* ~~~~~~~~~~~~~END OF HEADER ~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~ END OF HEADER ~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~ HOME PAGE ~~~~~~~~~~~~~~ */
+
+.main--home-page{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "partners partners"
+  "perks perks"
+  "features features";
+}
+
+/* partners section */
+
+.section--partners-grid{
+  grid-area: partners;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  height: fit-content;
+  padding: 105px 163px 0 165px;
+  background-position-y: -359px;
+  background-position-x: -235px;
+}
+
+.article--partners-grid{
+  width: 445px;
+  height: 266px;
+  margin: 0 131px 100px 0;
+}
+
+.article__heading--partners{
+  font-size: var(--h2-size);
+  letter-spacing: var(--h2-letter-spacing);
+  height: 66px;
+  margin: 0px 0 8px 0;
+}
+
+.article__para--partners{
+  margin-bottom: 40px;
+}
+
+.partners-grid-wrapper-home{
+  width: 536px;
+  height: 103px;
+  display: grid;
+  grid-template-columns: 178px 178px 178px;
+  padding: 0;
+  margin-bottom: auto;
+  margin-top: 80px;
+}
+
+.anchor__img--partner{
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+
+.tesla-logo{
+  width: 129px;
+  margin-right: auto;
+  margin-top: 7px;
+}
+
+.microsoft-logo{
+margin: 0 auto;
+width: 145px;
+
+}
+
+.hp-logo{
+ width: 140px;
+ margin-left: auto;
+}
+
+.oracle-logo{
+ width: 131px;
+ margin-top: auto;
+ margin-left: 0;
+ margin-bottom: 8px;
+}
+
+.google-logo{
+ width: 96px;
+ margin: 0 auto;
+ margin-top: auto;
+}
+
+.nvidia-logo{
+  margin-left: auto;
+  width: 137px;
+  margin-bottom: 3px;
+}
+
+.perks-phone-mockups-container{
+  grid-area: article;
+}
+
+.section--features{
+  grid-area: features;
+}
+
+/* perks section */
+
+.section--perks-container{
+  grid-area: perks;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  grid-template-areas: 
+  "a b"
+  "c d";
+}
+
+.img--script-wrapper{
+  grid-area: a;
+  width: 445px;
+  margin: 150px 100px 0px 165px;
+}
+
+.img--script-toolbar{
+  width: 100%;
+  height: 40px;
+  object-fit: fill;
+}
+
+.img--script-content{
+  height: 180px;
+  padding: 0;
+  margin: 33px 0px 31px 32px;
+  width: 290px;
+}
+
+.article--home-perks{
+  box-sizing: content-box;
+  width: 445px;
+  height: 150px;
+  text-align: left;
+  justify-self: end;
+  padding: 0;
+  h3 {
+    font-size: var(--h2-size);
+    letter-spacing: var(--h2-letter-spacing);
+  }
+}
+
+.article--home-perks-first{
+  grid-area: b;
+  margin: 216px 260px auto 25px;
+  padding: 0;
+}
+
+.perks-phone-mockups-container{
+  grid-area: d;
+}
+
+.article--home-perks-second{
+  grid-area: c;
+}
+
+.para--home-perks{
+  margin-bottom: 0;
+}
+
+/* phone mockups section */
+
+.perks-phone-mockups-container{
+  background: url("../assets/shared/desktop/bg-pattern-circle.svg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-position-x: 330px;
+  justify-self: end;
+  width: 720px;
+  height: 780px;
+  margin-bottom: 0;
+
+}
+
+.perks-phone-mockup-wrapper{
+  width: 258px;
+  height: 499px;
+  margin-top: 150px;
+}
+
+.home-perks-phone{
+  width: 262px;
+  height: 499px;
+}
+
+.home-perks-phone-screen{
+  width: 232px;
+  height: 464px;
+  top: 12px;
+  left: 16px;
+}
+
+.article--home-perks-second{
+  margin-top: 338px;
+  margin-left: 165px;
+  justify-self: start;
+  height: 442px;
+}
+
+.perks-notification-wrapper{
+  width: 176px;
+  height: 191px;
+  top: 142px;
+  left: 41px;
+}
+
+.button--phone-notification{
+  height: 24px;
+  width: 131px;
+  align-self: center;
+}
+
+/* features */
+
+.section--features{
+  flex-direction: row;
+  gap: 29px;
+  width: 100%;
+  padding-left: 164px;
+  padding-right: 164px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.feature-wrapper{
+  width: 352px;
+  height: 274px;
+}
+
+
+
+/* ~~~~~~~~~~~~~ END OF HOME PAGE ~~~~~~~~~~~~~~ */
+
+
+
+
 
 }
 
