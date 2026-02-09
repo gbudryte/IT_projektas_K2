@@ -18,7 +18,6 @@ function displayWindowSize() {
   }
   else{
     oldParent.prepend(childFromMain);
-    newParent.style.gridTemplateColumns = "1fr 1fr";
   }
 }
 
