@@ -100,10 +100,22 @@
         flex-basis: 69.3%;
       }
     }
-
-    .full-width-picture {
-      margin-top: 41px;
-      margin-bottom: 19px;
+    div.picture--container {
+      .full-width-picture {
+        margin-top: 41px;
+        margin-bottom: 19px;
+        img {
+          position: relative;
+          z-index: 2;
+        }
+      }
+      img.bg {
+        display: inline-block;
+        position: absolute;
+        left: -520px;
+        top: -120px;
+        z-index: 1;
+      }
     }
 
     .section--about-cards {

@@ -552,19 +552,19 @@ section.email--form--bottom {
   line-height: var(--body-text-line-height);
 }
 
-.full-width-picture {
+div.picture--container {
   width: 100vw;
   position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  margin-top: 105px;
-}
+  margin-left: calc(50% - 50vw);
 
-.full-width-picture img {
-  width: 100%;
-  height: auto;
+  .full-width-picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  img.bg {
+    display: none;
+  }
 }
 
 .section--about-cards {
