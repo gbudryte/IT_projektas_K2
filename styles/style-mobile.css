@@ -7,6 +7,8 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
+  position: relative;
+  overflow: hidden;
 }
 
 /* ~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
@@ -18,12 +20,6 @@
 
 .header--other-pages {
   overflow: hidden;
-}
-
-.header__circle-wrapper {
-  overflow: hidden;
-  position: relative;
-  grid-area: 1 / 1 / 3 / 3;
 }
 
 .header--home-page {
@@ -39,7 +35,7 @@
 /* header circle */
 
 .header__circle {
-  position: relative;
+  position: absolute;
   width: 780px;
   height: 780px;
 }
@@ -939,14 +935,13 @@ section.email--form--bottom {
 .para--home-perks {
   font-size: var(--body-text-size);
   color: var(--secondary-color-light-san-juan-blue);
-  margin-bottom: 0;
+  margin-bottom: 88px;
 }
 
 .perks-phone-mockups-container {
   display: flex;
   height: 289px;
   width: 328px;
-  margin-top: 88px;
   margin-bottom: 47px;
   gap: 27px;
 }
@@ -999,3 +994,44 @@ section.email--form--bottom {
 }
 
 /* ~~~~~~~~~~~~~ END OF HOME PAGE PERKS ~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~ HOME PAGE FEATURES ~~~~~~~~~~~~~~ */
+
+.section--features{
+  display: flex;
+  flex-direction: column;
+  gap: 53px;
+  padding: 0 24px 0 24px;
+}
+
+.feature-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature__img{
+  width: 106px;
+  margin-bottom: 16px;
+}
+
+.feature__title{
+  height: 21px;
+  font-size: var(--h3-size-small);
+  color: var(--secondary-color-san-juan-blue);
+  font-weight: var(--font-weight-bold);
+}
+
+.feature__text{
+  margin: 0;
+  color: var(--secondary-color-light-san-juan-blue);
+  letter-spacing: -0.12px;
+}
+
+.feature__text--last{
+ margin-bottom: 8px;
+}
+
+
+/* ~~~~~~~~~~~~~ END OF HOME PAGE FEATURES ~~~~~~~~~~~~~~ */

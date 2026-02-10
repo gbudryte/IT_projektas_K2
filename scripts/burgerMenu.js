@@ -22,11 +22,18 @@ const myCircle = document.querySelector(".header__circle");
 const closeButton = document.querySelector(".menu--close-img");
 
 menuButton.addEventListener('click', () => {
-  burgerContainer.style.display = "block";
-  myCircle.style.zIndex = "2"; 
+    burgerContainer.style.display = "block";
+    myCircle.style.zIndex = "2";
 })
 
 closeButton.addEventListener('click', () => {
   burgerContainer.style.display = "none";
-  myCircle.style.zIndex = "0"; 
+  myCircle.style.zIndex = "0";
+})
+
+window.addEventListener("resize", () => {
+  if(window.innerWidth >= 768){
+    burgerContainer.style.display = "none";
+    myCircle.style.zIndex = "0";
+  }
 })
