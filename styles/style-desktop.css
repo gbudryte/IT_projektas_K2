@@ -47,10 +47,11 @@
 
   section.email--form--top {
     padding: 0;
-    gap: 16px;
+    gap: 24px;
     align-items: start;
     margin-left: 165px;
-    width: 38%;
+    width: 546px;
+    height: 348px;
     h3 {
       font-size: var(--h1-size-large);
       letter-spacing: -0.55px;
@@ -73,7 +74,7 @@
 
   /* ~~~~~~~~~~~~~ ABOUT PAGE ~~~~~~~~~~~~~~ */
   .main--about-container {
-    margin: 0 165px;
+    margin: 80px 165px 0;
     gap: 53px;
     .main__heading--about {
       font-size: var(--h1-size-small);
@@ -81,6 +82,7 @@
       letter-spacing: -0.43px;
       line-height: var(--h1-line-height-smalll);
       text-align: left;
+      margin: 0;
     }
 
     .main__article--about {
@@ -130,5 +132,333 @@
       }
     }
   }
-  /* ~~~~~~~~~~~~~ ABOUT PAGE ~~~~~~~~~~~~~~ */
+  /* ~~~~~~~~~~~~~ END OF ABOUT PAGE ~~~~~~~~~~~~~~ */
+
+  /* ~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
+  .header--home-page {
+    grid-template-areas:
+      "nav nav"
+      "email phone";
+    height: fit-content;
+  }
+
+  /* .header__circle-wrapper{
+      grid-area: 1 / 2/ 3 / 3 ;
+      height: 720px;
+    } */
+
+  .header__circle--home-page {
+    left: auto;
+    right: -530px;
+    top: -172px;
+    width: 780px;
+    height: 780px;
+  }
+
+  .header__circle--other-pages {
+    right: -160px;
+    top: -527px;
+    width: 780px;
+    height: 780px;
+  }
+
+  .nav__wrapper {
+    height: fit-content;
+    margin: 40px 165px 0 165px;
+    justify-content: start;
+  }
+
+  .anchor--payapi {
+    margin-right: 64px;
+  }
+
+  .nav__menu {
+    width: 232px;
+    max-width: 232px;
+    justify-content: space-between;
+    margin-right: 506px;
+  }
+
+  .nav__ul {
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+  }
+
+  .nav__button--demo {
+    margin-left: auto;
+  }
+
+  .nav__button--demo:hover {
+    opacity: 0.7;
+  }
+
+  .div--phone-mockup-shadow {
+    height: 484px;
+    width: 250px;
+    border-radius: 34px;
+    margin-top: 74px;
+    margin-bottom: 75px;
+    justify-self: end;
+    right: 264px;
+  }
+
+  .home--phone-mockup {
+    width: 258px;
+    height: 499px;
+    top: -7px;
+    left: -4px;
+  }
+
+  .home--phone-notification {
+    width: 218px;
+    height: 87px;
+    top: 166px;
+    left: 16px;
+  }
+
+  .email--form--top {
+    margin-top: 149px;
+    height: 348px;
+  }
+
+  /* ~~~~~~~~~~~~~ END OF HEADER ~~~~~~~~~~~~~~ */
+
+  /* ~~~~~~~~~~~~~ HOME PAGE ~~~~~~~~~~~~~~ */
+
+  .main--home-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "partners partners"
+      "perks perks"
+      "features features";
+  }
+
+  /* partners section */
+
+  .section--partners-grid {
+    grid-area: partners;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 105px 163px 0 165px;
+    background-position-y: -359px;
+    background-position-x: -235px;
+  }
+
+  .article--partners-grid {
+    width: 445px;
+    height: 266px;
+    margin: 0 131px 100px 0;
+  }
+
+  .article__heading--partners {
+    font-size: var(--h2-size);
+    letter-spacing: var(--h2-letter-spacing);
+    height: 66px;
+    margin: 0px 0 8px 0;
+  }
+
+  .article__para--partners {
+    margin-bottom: 40px;
+  }
+
+  .article__button--about-us:hover {
+    background-color: #fff;
+    border: 1px solid var(--primary-color-link-water-white);
+    color: var(--secondary-color-mirage-blue);
+  }
+  .partners-grid-wrapper-home {
+    width: 536px;
+    height: 103px;
+    display: grid;
+    grid-template-columns: 178px 178px 178px;
+    padding: 0;
+    margin-bottom: auto;
+    margin-top: 80px;
+  }
+
+  .anchor__img--partner {
+    width: 100%;
+    display: flex;
+    align-items: start;
+  }
+
+  .tesla-logo {
+    width: 129px;
+    margin-right: auto;
+    margin-top: 7px;
+  }
+
+  .microsoft-logo {
+    margin: 0 auto;
+    width: 145px;
+  }
+
+  .hp-logo {
+    width: 140px;
+    margin-left: auto;
+  }
+
+  .oracle-logo {
+    width: 131px;
+    margin-top: auto;
+    margin-left: 0;
+    margin-bottom: 8px;
+  }
+
+  .google-logo {
+    width: 96px;
+    margin: 0 auto;
+    margin-top: auto;
+  }
+
+  .nvidia-logo {
+    margin-left: auto;
+    width: 137px;
+    margin-bottom: 3px;
+  }
+
+  .perks-phone-mockups-container {
+    grid-area: article;
+  }
+
+  .section--features {
+    grid-area: features;
+  }
+
+  /* perks section */
+
+  .section--perks-container {
+    grid-area: perks;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    grid-template-areas:
+      "a b"
+      "c d";
+  }
+
+  .img--script-wrapper {
+    grid-area: a;
+    width: 445px;
+    margin: 150px 100px 0px 165px;
+  }
+
+  .img--script-toolbar {
+    width: 100%;
+    height: 40px;
+    object-fit: fill;
+  }
+
+  .img--script-content {
+    height: 180px;
+    padding: 0;
+    margin: 33px 0px 31px 32px;
+    width: 290px;
+  }
+
+  .article--home-perks {
+    box-sizing: content-box;
+    width: 445px;
+    height: 150px;
+    text-align: left;
+    justify-self: end;
+    padding: 0;
+    h3 {
+      font-size: var(--h2-size);
+      letter-spacing: var(--h2-letter-spacing);
+    }
+  }
+
+  .article--home-perks-first {
+    grid-area: b;
+    margin: 216px 260px auto 25px;
+    padding: 0;
+  }
+
+  .perks-phone-mockups-container {
+    grid-area: d;
+  }
+
+  .article--home-perks-second {
+    grid-area: c;
+  }
+
+  .para--home-perks {
+    margin-bottom: 0;
+  }
+
+  /* phone mockups section */
+
+  .perks-phone-mockups-container {
+    background: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-position-x: 330px;
+    justify-self: end;
+    width: 720px;
+    height: 780px;
+    margin-bottom: 0;
+  }
+
+  .perks-phone-mockup-wrapper {
+    width: 258px;
+    height: 499px;
+    margin-top: 150px;
+  }
+
+  .home-perks-phone {
+    width: 262px;
+    height: 499px;
+  }
+
+  .home-perks-phone-screen {
+    width: 232px;
+    height: 464px;
+    top: 12px;
+    left: 16px;
+  }
+
+  .article--home-perks-second {
+    margin-top: 338px;
+    margin-left: 165px;
+    justify-self: start;
+    height: 442px;
+  }
+
+  .perks-notification-wrapper {
+    width: 176px;
+    height: 191px;
+    top: 142px;
+    left: 41px;
+  }
+
+  .button--phone-notification {
+    height: 24px;
+    width: 131px;
+    align-self: center;
+  }
+
+  /* features */
+
+  .section--features {
+    flex-direction: row;
+    gap: 29px;
+    width: 100%;
+    padding-left: 164px;
+    padding-right: 164px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .feature-wrapper {
+    width: 352px;
+    height: 274px;
+  }
+
+  /* ~~~~~~~~~~~~~ END OF HOME PAGE ~~~~~~~~~~~~~~ */
 }

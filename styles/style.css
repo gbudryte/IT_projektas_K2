@@ -2,18 +2,27 @@
 
 :root {
   --primary-color-dark-pink: rgb(186, 66, 112);
-  --primary-color-dark-pink-filter: brightness(0) saturate(100%) invert(39%) sepia(37%) saturate(988%) hue-rotate(285deg) brightness(87%) contrast(95%);
+  --primary-color-dark-pink-filter: brightness(0) saturate(100%) invert(39%)
+    sepia(37%) saturate(988%) hue-rotate(285deg) brightness(87%) contrast(95%);
   --primary-color-link-water-white: #fbfcfe;
-  --primary-color-link-water-white-filter: brightness(0) saturate(100%) invert(86%) sepia(37%) saturate(10%) hue-rotate(182deg) brightness(105%) contrast(104%);
+  --primary-color-link-water-white-filter: brightness(0) saturate(100%)
+    invert(86%) sepia(37%) saturate(10%) hue-rotate(182deg) brightness(105%)
+    contrast(104%);
   --secondary-color-san-juan-blue: #36536b;
-  --secondary-color-san-juan-blue-filter: brightness(0) saturate(100%) invert(26%) sepia(6%) saturate(3575%) hue-rotate(166deg) brightness(99%) contrast(81%);
+  --secondary-color-san-juan-blue-filter: brightness(0) saturate(100%)
+    invert(26%) sepia(6%) saturate(3575%) hue-rotate(166deg) brightness(99%)
+    contrast(81%);
   --secondary-color-san-juan-blue-semi-opaque: rgba(54, 83, 107, 0.5);
   --secondary-color-mirage-blue: #1b262f;
-  --secondary-color-mirage-blue-filter: brightness(0) saturate(100%) invert(8%) sepia(5%) saturate(5685%) hue-rotate(166deg) brightness(98%) contrast(85%);
+  --secondary-color-mirage-blue-filter: brightness(0) saturate(100%) invert(8%)
+    sepia(5%) saturate(5685%) hue-rotate(166deg) brightness(98%) contrast(85%);
   --secondary-color-charm-pink: #da6d97;
-  --secondary-color-charm-pink-filter: brightness(0) saturate(100%) invert(64%) sepia(8%) saturate(6306%) hue-rotate(298deg) brightness(95%) contrast(79%);
+  --secondary-color-charm-pink-filter: brightness(0) saturate(100%) invert(64%)
+    sepia(8%) saturate(6306%) hue-rotate(298deg) brightness(95%) contrast(79%);
   --secondary-color-light-san-juan-blue: #6c8294;
-  --secondary-color-light-san-juan-blue-filter: brightness(0) saturate(100%) invert(44%) sepia(94%) saturate(117%) hue-rotate(165deg) brightness(93%) contrast(80%);
+  --secondary-color-light-san-juan-blue-filter: brightness(0) saturate(100%)
+    invert(44%) sepia(94%) saturate(117%) hue-rotate(165deg) brightness(93%)
+    contrast(80%);
 
   --font-family-dm-serif-display: "DM Serif Display", serif;
   --font-family-public-sans: "Public Sans", sans-serif;
@@ -53,7 +62,7 @@
   --primary-buttons-box-shadow: 10px 10px 25px #36536b40;
   --buttons-inputs-text-spacing: -0.12px;
   --buttons-inputs-text-size: 15px;
-  --buttons-inputs-line-height:17px;
+  --buttons-inputs-line-height: 17px;
   --error-message-letter-spacing: -0.08px;
   --error-message-text-size: 11px;
 
@@ -71,8 +80,8 @@
 body {
   width: 100vw;
   height: 100vh;
-  margin:0;
-  background-color: #FBFCFE;
+  margin: 0;
+  background-color: #fbfcfe;
 
   font-family: var(--font-family-public-sans);
   font-size: var(--body-text-size);
@@ -80,21 +89,26 @@ body {
   color: var(--secondary-color-mirage-blue);
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-family-public-sans);
   color: var(--secondary-color-san-juan-blue);
   margin: 0 0 16px;
 }
 
-p{
+p {
   margin: 0 0 16px;
   color: var(--secondary-color-mirage-blue);
 }
 
-.pricing h2, .pricing h3 {
+/* .pricing h2, .pricing h3 {
   color: var(--primary-color-dark-pink);
-}
-
+} */
+/* 
 .features {
   background-color: var(--primary-color-link-water-white);
   width: 100%;
@@ -142,4 +156,4 @@ p{
   .feature{
     padding: 32px;
   }
-}
+} */
