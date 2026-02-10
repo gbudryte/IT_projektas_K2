@@ -212,7 +212,7 @@
       letter-spacing: var(--h2-letter-spacing);
       margin: 0 auto;
       height: auto;
-      padding: 3%;
+      padding: 0 3%;
     }
     .contact--form {
       margin: 48px 63px 71px 65px;
@@ -241,4 +241,5 @@
       }
     }
   }
+  /* ~~~~~~~~~~~~~ END OF CONTACT PAGE ~~~~~~~~~~~~~ */
 }
