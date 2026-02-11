@@ -68,6 +68,46 @@
   box-sizing: border-box;
 }
 
+/* Keyboard Accessibility - Focus Styles */
+/* Visible focus indicators for keyboard navigation */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[role="button"]:focus-visible {
+  outline: 3px solid var(--primary-color-dark-pink);
+  outline-offset: 2px;
+}
+
+/* Fallback for older browsers */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+[role="button"]:focus {
+  outline: 3px solid var(--primary-color-dark-pink);
+  outline-offset: 2px;
+}
+
+/* Skip to main content link - visible on focus */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--primary-color-dark-pink);
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  z-index: 100;
+  border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 body {
   width: 100vw;
   height: 100vh;

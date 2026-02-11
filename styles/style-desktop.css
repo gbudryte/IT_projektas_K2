@@ -409,8 +409,12 @@ width: 145px;
 
 
 
+/* ~~~~~~~~~~~~~FEATURES ~~~~~~~~~~~~~~ */
+
+  .feature {
+    align-content: center;
+  }
+
+/* ~~~~~~~~~~~~~END OF FEATURES ~~~~~~~~~~~~~~ */
+
 }
-
-
-
-
