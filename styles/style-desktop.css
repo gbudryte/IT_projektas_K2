@@ -440,6 +440,8 @@
         max-width: 445px;
       }
       div.partners-grid-wrapper {
+        margin: 0;
+        justify-content: start;
         column-gap: 60px;
         row-gap: 40px;
       }
