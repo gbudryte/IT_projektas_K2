@@ -1,5 +1,79 @@
 @import "/styles/style.css";
 
+@media only screen and (min-width: 768px) and (max-width: 1439px){
+
+  /* .container{
+    background-color: red;
+  } */
+
+  .main--pricing-container{
+    padding: 0 40px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    text-align: center;
+    align-items: stretch;
+  }
+
+  /* Title */
+  .main--pricing-container .h3--pricing{
+    grid-column: 1 / -1;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 64px;
+  }
+
+  /* Cards */
+  .main--pricing-container .pricing-card{
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Card headings */
+  .main--pricing-container .h4--pricing-card{
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .main--pricing-container .p--pricing-card{
+    margin-bottom: 32px;
+  }
+
+  /* Price */
+  .main--pricing-container .h1--card-price{
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+
+  /* Divider */
+  .main--pricing-container hr{
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  /* Feature list */
+  .main--pricing-container .ul--features{
+    margin-bottom: 40px;
+    text-align: left;
+  }
+
+  .main--pricing-container .ul--features li{
+    left: 0;
+    transform: none;
+    width: 100%;
+    padding-left: 32px;
+  }
+
+  /* Button pinned to bottom */
+  .main--pricing-container .button--pricing-card{
+    width: 168px;
+    margin: auto auto 0;
+  }
+
+}
 @media only screen and (min-width: 768px) {
   .container {
     background-color: #edf3f8;
@@ -94,6 +168,98 @@
       margin: 0;
     }
   }
+
+  /* ~~~~~~~~~~~~~ END OF EMAIL FORM ~~~~~~~~~~~~~~ */
+
+  /* ~~~~~~~~~~~~~ ABOUT PAGE ~~~~~~~~~~~~~~ */
+  .main--about-container {
+    margin: 81px 40px 0 39px;
+    gap: 48px;
+    width: auto;
+    .main__heading--about {
+      height: auto;
+      font-size: var(--h2-size);
+      padding: 0;
+      letter-spacing: var(--h2-letter-spacing);
+      line-height: var(--h2-line-height);
+      margin: 0 58px;
+    }
+
+    .main__article--about {
+      padding: 0;
+      margin-bottom: -4px;
+      gap: 72px;
+
+      .article__wrapper-about {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: start;
+      }
+
+      .article__heading-about {
+        font-size: var(--h3-size-big);
+        letter-spacing: var(--h3-letter-spacing-big);
+        line-height: var(--h3-line-height-big);
+        text-align: left;
+        height: auto;
+        flex-basis: 32.5%;
+      }
+
+      .article__para-about {
+        letter-spacing: 0px;
+        text-align: left;
+        height: auto;
+        flex-basis: 66.6%;
+      }
+    }
+
+    div.picture--container {
+      margin-top: 56px;
+      margin-bottom: 16px;
+    }
+
+    .section--about-cards {
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      justify-content: space-around;
+      align-items: start;
+
+      .heading__card-about {
+        height: auto;
+        margin: 0;
+        line-height: var(--h1-line-height-large);
+        text-align: left;
+        margin-bottom: -2px;
+      }
+      p {
+        margin-top: 16px;
+        text-align: left;
+        font-size: 16px;
+        line-height: var(--body-text-line-height);
+      }
+
+      .card__hr--about {
+        display: block;
+        height: 1px;
+        border: none;
+        opacity: 0.25;
+        margin: 0px;
+        background-color: var(--secondary-color-san-juan-blue);
+      }
+
+      .card__hr--about-sides,
+      .card__hr--about {
+        width: 223px;
+        margin: 0px;
+      }
+    }
+  }
+
+  /* ~~~~~~~~~~~~~ END OF ABOUT PAGE ~~~~~~~~~~~~~~ */
 
   /* ~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
 

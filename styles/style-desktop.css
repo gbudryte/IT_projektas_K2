@@ -1,6 +1,73 @@
 @import "/styles/style.css";
 
 @media only screen and (min-width: 1440px) {
+  /* Section
+  .container {
+    background-color: green;
+    width: 100%;
+  } */
+
+  /* Content wrapper */
+  .main--pricing-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 165px 120px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    text-align: center;
+    align-items: stretch;
+  }
+
+  .main--pricing-container .h3--pricing {
+    grid-column: 1 / -1;
+    font-size: 56px;
+    line-height: 56px;
+    margin-bottom: 72px;
+  }
+
+  /* Cards */
+  .main--pricing-container .pricing-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main--pricing-container .h4--pricing-card {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .main--pricing-container .p--pricing-card {
+    margin-bottom: 32px;
+    padding: 0 10px;
+  }
+
+  .main--pricing-container .h1--card-price {
+    font-size: 56px;
+    margin-bottom: 24px;
+  }
+
+  .main--pricing-container hr {
+    margin-bottom: 32px;
+  }
+
+  /* Features */
+  .main--pricing-container .ul--features {
+    margin-bottom: 40px;
+  }
+
+  .main--pricing-container .ul--features li {
+    padding-left: 32px;
+  }
+
+  /* Button */
+  .main--pricing-container .button--pricing-card {
+    width: 168px;
+    margin: 16px auto 0;
+  }
+}
+@media only screen and (min-width: 1440px) {
   .container {
     background-color: #edf3f8;
     /* max-width: 1440px; */
@@ -72,6 +139,68 @@
   }
   /* ~~~~~~~~~~~~~ END OF EMAIL FORM ~~~~~~~~~~~~~~ */
 
+  /* ~~~~~~~~~~~~~ ABOUT PAGE ~~~~~~~~~~~~~~ */
+  .main--about-container {
+    margin: 80px 165px 0;
+    gap: 53px;
+    .main__heading--about {
+      font-size: var(--h1-size-small);
+      padding: 0 285px 0 95px;
+      letter-spacing: -0.43px;
+      line-height: var(--h1-line-height-small);
+      text-align: left;
+      margin: 0;
+    }
+
+    .main__article--about {
+      padding: 0 95px;
+      gap: 64px;
+      margin-bottom: 14px;
+
+      .article__wrapper-about {
+        gap: 30px;
+      }
+
+      .article__heading-about {
+        flex-basis: 27.7%;
+      }
+
+      .article__para-about {
+        flex-basis: 69.3%;
+      }
+    }
+    div.picture--container {
+      .full-width-picture {
+        margin-top: 41px;
+        margin-bottom: 19px;
+        img {
+          position: relative;
+          z-index: 2;
+        }
+      }
+      img.bg {
+        display: inline-block;
+        position: absolute;
+        left: -520px;
+        top: -120px;
+        z-index: 1;
+      }
+    }
+
+    .section--about-cards {
+      gap: 30px;
+      p {
+        margin-top: 17px;
+      }
+
+      .card__hr--about-sides,
+      .card__hr--about {
+        width: 350px;
+      }
+    }
+  }
+  /* ~~~~~~~~~~~~~ END OF ABOUT PAGE ~~~~~~~~~~~~~~ */
+
   /* ~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
   .header--home-page {
     grid-template-areas:
@@ -81,9 +210,9 @@
   }
 
   /* .header__circle-wrapper{
-    grid-area: 1 / 2/ 3 / 3 ;
-    height: 720px;
-  } */
+      grid-area: 1 / 2/ 3 / 3 ;
+      height: 720px;
+    } */
 
   .header__circle--home-page {
     left: auto;
