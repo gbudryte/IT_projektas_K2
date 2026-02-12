@@ -997,41 +997,40 @@ section.email--form--bottom {
 
 /* ~~~~~~~~~~~~~ HOME PAGE FEATURES ~~~~~~~~~~~~~~ */
 
-.section--features{
+.section--features {
   display: flex;
   flex-direction: column;
   gap: 53px;
   padding: 0 24px 0 24px;
 }
 
-.feature-wrapper{
+.feature-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.feature__img{
+.feature__img {
   width: 106px;
   margin-bottom: 16px;
 }
 
-.feature__title{
+.feature__title {
   height: 21px;
   font-size: var(--h3-size-small);
   color: var(--secondary-color-san-juan-blue);
   font-weight: var(--font-weight-bold);
 }
 
-.feature__text{
+.feature__text {
   margin: 0;
   color: var(--secondary-color-light-san-juan-blue);
   letter-spacing: -0.12px;
 }
 
-.feature__text--last{
- margin-bottom: 8px;
+.feature__text--last {
+  margin-bottom: 8px;
 }
-
 
 /* ~~~~~~~~~~~~~ END OF HOME PAGE FEATURES ~~~~~~~~~~~~~~ */
