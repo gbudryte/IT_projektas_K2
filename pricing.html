@@ -20,33 +20,35 @@
 
   <body>
     <div class="container">
+      <img
+        src="/assets/shared/desktop/bg-pattern-circle.svg"
+        alt="circle"
+        class="header__circle header__circle--other-pages"
+      />
       <header class="header header--other-pages">
-        <img
-          src="/assets/shared/desktop/bg-pattern-circle.svg"
-          alt="circle"
-          class="header__circle header__circle--other-pages"
-        />
-
-        <div class="nav__wrapper">
-          <a href="/index.html"
+        <div class="nav__wrapper nav__wrapper--other-pages">
+          <a href="/index.html" class="anchor--payapi"
             ><img
               src="/assets/shared/desktop/logo.svg"
               alt="pay api logo"
               class="nav--payapi-logo"
           /></a>
-          <nav>
+          <nav class="nav__menu">
             <ul class="nav__ul">
               <li><a href="/pricing.html">Pricing</a></li>
               <li><a href="/about.html">About</a></li>
               <li><a href="/contact.html">Contact</a></li>
             </ul>
-            <button class="nav__button--demo">Schedule a Demo</button>
+
             <img
               src="/assets/shared/mobile/menu.svg"
               alt="menu logo"
               class="nav--menu-logo"
             />
           </nav>
+          <button class="nav__button--demo">
+            <span>Schedule a Demo</span>
+          </button>
         </div>
 
         <div class="burger-container"></div>
@@ -121,8 +123,10 @@
       <footer>
         <section class="email--form--bottom">
           <h3>Ready to start?</h3>
-          <input type="email" placeholder="Enter email address" />
-          <button>Schedule a Demo</button>
+          <div class="input--button--wrapper">
+            <input type="email" placeholder="Enter email address" />
+            <button>Schedule a Demo</button>
+          </div>
         </section>
         <div class="logo--and--links">
           <svg width="135" height="38" xmlns="http://www.w3.org/2000/svg">

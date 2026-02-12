@@ -74,3 +74,298 @@
   }
 
 }
+@media only screen and (min-width: 768px) {
+  .container {
+    background-color: #edf3f8;
+  }
+
+  .partners-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, auto);
+    grid-auto-flow: row;
+    gap: 64px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .partners-grid-wrapper-home a {
+    margin: auto auto;
+  }
+
+  /* ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
+
+  .logo--and--links {
+    padding: 31px 40px;
+    flex-direction: row;
+    gap: 64px;
+    justify-content: space-between;
+    background-position: 378px -136px;
+
+    #footer--links--text {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      align-items: center;
+    }
+
+    #footer--links--icons {
+      margin-left: 74px;
+      width: 120px;
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  /* ~~~~~~~~~~~~~ END OF FOOTER ~~~~~~~~~~~~~~ */
+
+  /* ~~~~~~~~~~~~~ EMAIL FORM ~~~~~~~~~~~~~~ */
+
+  section.email--form--bottom {
+    padding: 100px 161px 100px 162px;
+    gap: 24px;
+  }
+
+  section.email--form--top {
+    padding: 54px 98px 100px 97px;
+    gap: 16px;
+  }
+
+  section.email--form--top,
+  section.email--form--bottom {
+    h3 {
+      font-size: var(--h2-size);
+      letter-spacing: -0.37px;
+      line-height: 56px;
+      margin: 0;
+    }
+
+    div.input--button--wrapper {
+      position: relative;
+      width: 445px;
+
+      input {
+        width: 100%;
+        padding-right: 173px;
+        margin: 0;
+      }
+
+      button {
+        width: 173px;
+        position: absolute;
+        left: 272px;
+        margin: 0;
+      }
+    }
+
+    div.link--wrapper {
+      margin: 0;
+    }
+  }
+
+  /* ~~~~~~~~~~~~~ END OF EMAIL FORM ~~~~~~~~~~~~~~ */
+
+  /* ~~~~~~~~~~~~~ ABOUT PAGE ~~~~~~~~~~~~~~ */
+  .main--about-container {
+    margin: 81px 40px 0 39px;
+    gap: 48px;
+    width: auto;
+    .main__heading--about {
+      height: auto;
+      font-size: var(--h2-size);
+      padding: 0;
+      letter-spacing: var(--h2-letter-spacing);
+      line-height: var(--h2-line-height);
+      margin: 0 58px;
+    }
+
+    .main__article--about {
+      padding: 0;
+      margin-bottom: -4px;
+      gap: 72px;
+
+      .article__wrapper-about {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: start;
+      }
+
+      .article__heading-about {
+        font-size: var(--h3-size-big);
+        letter-spacing: var(--h3-letter-spacing-big);
+        line-height: var(--h3-line-height-big);
+        text-align: left;
+        height: auto;
+        flex-basis: 32.5%;
+      }
+
+      .article__para-about {
+        letter-spacing: 0px;
+        text-align: left;
+        height: auto;
+        flex-basis: 66.6%;
+      }
+    }
+
+    div.picture--container {
+      margin-top: 56px;
+      margin-bottom: 16px;
+    }
+
+    .section--about-cards {
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      justify-content: space-around;
+      align-items: start;
+
+      .heading__card-about {
+        height: auto;
+        margin: 0;
+        line-height: var(--h1-line-height-large);
+        text-align: left;
+        margin-bottom: -2px;
+      }
+      p {
+        margin-top: 16px;
+        text-align: left;
+        font-size: 16px;
+        line-height: var(--body-text-line-height);
+      }
+
+      .card__hr--about {
+        display: block;
+        height: 1px;
+        border: none;
+        opacity: 0.25;
+        margin: 0px;
+        background-color: var(--secondary-color-san-juan-blue);
+      }
+
+      .card__hr--about-sides,
+      .card__hr--about {
+        width: 223px;
+        margin: 0px;
+      }
+    }
+  }
+
+  /* ~~~~~~~~~~~~~ END OF ABOUT PAGE ~~~~~~~~~~~~~~ */
+
+  /* ~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
+
+  .header--home-page {
+    height: 439px;
+  }
+
+  .nav--menu-logo,
+  .burger-container div {
+    display: none;
+  }
+
+  .header__circle--home-page {
+    top: -663px;
+    width: 949px;
+    height: 949px;
+    position: absolute;
+  }
+
+  .header__circle--other-pages {
+    top: -464px;
+    right: -505px;
+  }
+
+  .nav__ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    flex-grow: 1;
+    margin-left: 65px;
+    margin-right: 85px;
+    max-width: 450px;
+    font-family: var(--font-family-public-sans);
+    font-weight: var(--font-weight-bold);
+
+    li > a {
+      text-decoration: none;
+      color: var(--secondary-color-san-juan-blue);
+      opacity: 0.7;
+    }
+  }
+
+  .nav__menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  .nav__button--demo {
+    display: block;
+    position: relative;
+    height: 48px;
+    width: 173px;
+    border-radius: var(--buttons-border-radius);
+    background-color: var(--primary-color-dark-pink);
+    border: none;
+
+    span {
+      font-size: 15px;
+      color: var(--primary-color-link-water-white);
+      font-weight: var(--font-weight-bold);
+      font-family: var(--font-family-public-sans);
+      line-height: 17px;
+      letter-spacing: 0.12px;
+      position: relative;
+      top: 0.5px;
+    }
+  }
+
+  .anchor--payapi {
+    display: flex;
+  }
+
+  .nav__wrapper {
+    display: flex;
+    height: fit-content;
+    margin: 45px 40px 0 40px;
+    justify-content: space-between;
+  }
+
+  .nav__wrapper--other-pages {
+    margin-bottom: 85px;
+  }
+
+  .div--phone-mockup-shadow {
+    width: 150px;
+    height: 293px;
+    margin-top: 53px;
+    margin-bottom: 0px;
+  }
+
+  .home--phone-mockup {
+    top: -2px;
+    width: 156px;
+    height: 299px;
+  }
+
+  .home--phone-notification {
+    left: 10px;
+    top: 97px;
+    width: 131px;
+    height: 53px;
+  }
+
+  /* ~~~~~~~~~~~~~ END OF HEADER ~~~~~~~~~~~~~~ */
+}
