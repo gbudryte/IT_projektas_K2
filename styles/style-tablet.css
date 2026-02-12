@@ -88,16 +88,17 @@
 /* pricing heading */
 .h3--pricing {
   grid-column: 1 / -1;
-  margin-bottom: 76px;
+  margin-top: 48px;
+  margin-bottom: 48px;
   grid-column: 1 / -1;
-  font-size: 70px; /*nesuradau jau kurto dydzio :(*/
+  font-size: 56px; /*nesuradau jau kurto dydzio :(*/
   color: var(--secondary-color-san-juan-blue);
 }
 
 
 /* Plan titles */
 .h4--pricing-card {
-  font-size: 38px; /*nesuradau jau kurto dydzio :(*/
+  font-size: 32px; /*nesuradau jau kurto dydzio :(*/
   line-height: 36px;
 }
 
