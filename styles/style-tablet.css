@@ -2,9 +2,9 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1439px){
 
-  .container{
+  /* .container{
     background-color: red;
-  }
+  } */
 
   .main--pricing-container{
     padding: 0 40px 100px;
@@ -368,4 +368,55 @@
   }
 
   /* ~~~~~~~~~~~~~ END OF HEADER ~~~~~~~~~~~~~~ */
+
+  /* ~~~~~~~~~~~~~ CONTACT PAGE ~~~~~~~~~~~~~ */
+  main.form--page {
+    margin: 81px 98px 0 97px;
+    #form--page--header {
+      font-size: var(--h2-size);
+      line-height: var(--h2-line-height);
+      letter-spacing: var(--h2-letter-spacing);
+      margin: 0 auto;
+      height: auto;
+      padding: 0 3%;
+    }
+    .contact--form {
+      margin: 48px 63px 71px 65px;
+    }
+    .section--partners-grid {
+      margin: 0 15px 6px 16px;
+      gap: 32px;
+      h4 {
+        line-height: var(--h4-line-height);
+        margin: 0 48px;
+      }
+      div.partners-grid-wrapper {
+        width: 100%;
+        column-gap: 60px;
+        row-gap: 40px;
+        padding: 0;
+        height: auto;
+        line-height: unset;
+        align-items: center;
+        .anchor__img--partner {
+          margin: 0;
+          &:nth-child(3n + 1) {
+            justify-self: start;
+          }
+          &:nth-child(3n + 2) {
+            justify-self: center;
+          }
+
+          &:nth-child(3n) {
+            justify-self: end;
+          }
+          img {
+            width: auto;
+            /* margin: auto auto; */
+          }
+        }
+      }
+    }
+  }
+  /* ~~~~~~~~~~~~~ END OF CONTACT PAGE ~~~~~~~~~~~~~ */
 }
