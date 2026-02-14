@@ -3,7 +3,7 @@ const burgerContainer = document.querySelector(".burger-container");
 burgerContainer.innerHTML = `
         <div class="menu-wrapper-js">
         </div>
-        <div class="menu-wrapper-js-2">
+        <div class="menu-wrapper-js-2" id="mobile-navigation">
           <img src="assets/shared/mobile/close.svg" alt="close image" class="menu--close-img">
           <hr class="menu__hr">
           <nav>
