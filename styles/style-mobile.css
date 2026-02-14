@@ -274,7 +274,7 @@ section.email--form--bottom {
     font-weight: var(--font-weight-regular);
   }
 
-  div.input--button--wrapper {
+  form.input--button--wrapper {
     padding: 0;
     margin: 0;
 
