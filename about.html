@@ -20,33 +20,34 @@
 
   <body>
     <div class="container">
+      <img
+        src="/assets/shared/desktop/bg-pattern-circle.svg"
+        alt="circle"
+        class="header__circle header__circle--other-pages"
+      />
       <header class="header header--other-pages">
-        <img
-          src="/assets/shared/desktop/bg-pattern-circle.svg"
-          alt="circle"
-          class="header__circle header__circle--other-pages"
-        />
-
         <div class="nav__wrapper">
-          <a href="/index.html"
+          <a href="/index.html" class="anchor--payapi"
             ><img
               src="/assets/shared/desktop/logo.svg"
               alt="pay api logo"
               class="nav--payapi-logo"
           /></a>
-          <nav>
+          <nav class="nav__menu">
             <ul class="nav__ul">
               <li><a href="/pricing.html">Pricing</a></li>
               <li><a href="/about.html">About</a></li>
               <li><a href="/contact.html">Contact</a></li>
             </ul>
-            <button class="nav__button--demo">Schedule a Demo</button>
             <img
               src="/assets/shared/mobile/menu.svg"
               alt="menu logo"
               class="nav--menu-logo"
             />
           </nav>
+          <button class="nav__button--demo">
+            <span>Schedule a Demo</span>
+          </button>
         </div>
 
         <div class="burger-container"></div>
@@ -54,20 +55,21 @@
 
       <main class="main--about-container">
         <h1 class="main__heading--about">
-          We empower innovators by delivering access to the financial system
+          We empower innovators <br />
+          by delivering access to the financial system
         </h1>
 
-        <article class="main__article--about">
-          <div class="article__wrapper-about">
-            <h3 class="article__heading-about">Our Vision</h3>
-            <p class="article__para-about">
-              Our main goal is to build beautiful consumer experiences along
-              with developer-friendly infrastructure. The result is an
-              intelligent tool that gives everyone the ability to create amazing
-              products that solve big problems. We are deeply focused on
-              democratizing financial services through technology.
-            </p>
-          </div>
+          <article class="main__article--about">
+            <div class="article__wrapper-about">
+              <h3 class="article__heading-about">Our Vision</h3>
+              <p class="article__para-about">
+                Our main goal is to build beautiful consumer experiences along
+                with developer-friendly infrastructure. The result is an
+                intelligent tool that gives everyone the ability to create amazing
+                products that solve big problems. We are deeply focused on
+                democratizing financial services through technology.
+              </p>
+            </div>
 
           <div class="article__wrapper-about">
             <h3 class="article__heading-about">Our Business</h3>
@@ -79,8 +81,27 @@
             </p>
           </div>
         </article>
-
-        <div class="image__wrapper-about"></div>
+        <div class="picture--container">
+          <picture class="full-width-picture">
+            <source
+              srcset="assets/about/desktop/image-team-members.jpg"
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="assets/about/tablet/image-team-members.jpg"
+              media="(min-width: 768px)"
+            />
+            <img
+              src="assets/about/mobile/image-team-members.jpg"
+              alt="Picture of three of our core team members (Jonas, Agnė and Ernestas) working at a coffee shop"
+            />
+          </picture>
+          <img
+            class="bg"
+            src="assets/shared/desktop/bg-pattern-circle.svg"
+            alt=""
+          />
+        </div>
 
         <section class="section--about-cards">
           <div class="card__wrapper-about">

@@ -21,38 +21,39 @@
 
   <body>
     <div class="container">
+      <img
+        src="/assets/shared/desktop/bg-pattern-circle.svg"
+        alt="circle"
+        class="header__circle header__circle--other-pages"
+      />
       <header class="header header--other-pages">
-        <img
-          src="/assets/shared/desktop/bg-pattern-circle.svg"
-          alt="circle"
-          class="header__circle header__circle--other-pages"
-        />
-
         <div class="nav__wrapper">
-          <a href="/index.html"
+          <a href="/index.html" class="anchor--payapi"
             ><img
               src="/assets/shared/desktop/logo.svg"
               alt="pay api logo"
               class="nav--payapi-logo"
           /></a>
-          <nav>
+          <nav class="nav__menu">
             <ul class="nav__ul">
               <li><a href="/pricing.html">Pricing</a></li>
               <li><a href="/about.html">About</a></li>
               <li><a href="/contact.html">Contact</a></li>
             </ul>
-            <button class="nav__button--demo">Schedule a Demo</button>
             <img
               src="/assets/shared/mobile/menu.svg"
               alt="menu logo"
               class="nav--menu-logo"
             />
           </nav>
+          <button class="nav__button--demo">
+            <span>Schedule a Demo</span>
+          </button>
         </div>
 
         <div class="burger-container"></div>
       </header>
-      <main>
+      <main class="form--page">
         <h3 id="form--page--header">
           Submit a help request and we’ll get in touch shortly.
         </h3>
@@ -100,7 +101,7 @@
               API</label
             >
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit" class="button--submit-form">Submit</button>
         </form>
 
         <section class="section--partners-grid">
@@ -111,6 +112,7 @@
             <a
               href="https://www.tesla.com/"
               class="anchor__img--partner anchor__tesla-logo"
+              target="_blank"
               ><img
                 src="./assets/shared/desktop/tesla.svg"
                 alt="tesla logo"
@@ -121,6 +123,7 @@
             <a
               href="https://www.microsoft.com/"
               class="anchor__img--partner anchor__microsoft-logo"
+              target="_blank"
             >
               <img
                 src="./assets/shared/desktop/microsoft.svg"
@@ -131,6 +134,7 @@
             <a
               href="https://www.hp.com/"
               class="anchor__img--partner anchor__hp-logo"
+              target="_blank"
               ><img
                 src="./assets/shared/desktop/hewlett-packard.svg"
                 alt="hewlett-packard logo"
@@ -140,6 +144,7 @@
             <a
               href="https://www.oracle.com/"
               class="anchor__img--partner anchor__oracle-logo"
+              target="_blank"
               ><img
                 src="./assets/shared/desktop/oracle.svg"
                 alt="oracle logo"
@@ -149,6 +154,7 @@
             <a
               href="https://www.google.com/"
               class="anchor__img--partner anchor__google-logo"
+              target="_blank"
               ><img
                 src="./assets/shared/desktop/google.svg"
                 alt="google logo"
@@ -158,6 +164,7 @@
             <a
               href="https://www.nvidia.com/en-eu/"
               class="anchor__img--partner anchor__nvidia-logo"
+              target="_blank"
               ><img
                 src="./assets/shared/desktop/nvidia.svg"
                 alt="nvidia logo"

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/style-tablet.css" />
     <link rel="stylesheet" href="styles/style-desktop.css" />
     <script src="scripts/burgerMenu.js" defer></script>
+    <script src="scripts/desktopHomePage.js" defer></script>
 
     <title>Frontend Mentor | PayAPI Website Challenge</title>
   </head>
@@ -21,34 +22,35 @@
   <body>
     <div class="container">
       <header class="header header--home-page">
-        <div class="header__circle-wrapper">
-          <img
-            src="/assets/shared/desktop/bg-pattern-circle.svg"
-            alt="circle"
-            class="header__circle header__circle--home-page"
-          />
-        </div>
+        <img
+          src="/assets/shared/desktop/bg-pattern-circle.svg"
+          alt="circle"
+          class="header__circle header__circle--home-page"
+        />
 
         <div class="nav__wrapper nav__wrapper--home-page">
-          <a href="/index.html"
+          <a href="/index.html" class="anchor--payapi"
             ><img
               src="/assets/shared/desktop/logo.svg"
               alt="pay api logo"
               class="nav--payapi-logo"
           /></a>
-          <nav>
+          <nav class="nav__menu">
             <ul class="nav__ul">
               <li><a href="/pricing.html">Pricing</a></li>
               <li><a href="/about.html">About</a></li>
               <li><a href="/contact.html">Contact</a></li>
             </ul>
-            <button class="nav__button--demo">Schedule a Demo</button>
+
             <img
               src="/assets/shared/mobile/menu.svg"
               alt="menu logo"
               class="nav--menu-logo"
             />
           </nav>
+          <button class="nav__button--demo">
+            <span>Schedule a Demo</span>
+          </button>
         </div>
 
         <div class="burger-container"></div>
@@ -67,7 +69,7 @@
         </div>
       </header>
 
-      <main>
+      <main class="main--home-page">
         <section class="email--form--top">
           <h3>Start building with our APIs for absolutely free.</h3>
           <div class="input--button--wrapper">
@@ -85,6 +87,7 @@
             <a
               href="https://www.tesla.com/"
               class="anchor__img--partner anchor__tesla-logo"
+              target="_blank"
               ><img
                 src="./assets/shared/desktop/tesla.svg"
                 alt="tesla logo"
@@ -95,6 +98,7 @@
             <a
               href="https://www.microsoft.com/"
               class="anchor__img--partner anchor__microsoft-logo"
+              target="_blank"
             >
               <img
                 src="./assets/shared/desktop/microsoft.svg"
@@ -105,6 +109,7 @@
             <a
               href="https://www.hp.com/"
               class="anchor__img--partner anchor__hp-logo"
+              target="_blank"
               ><img
                 src="./assets/shared/desktop/hewlett-packard.svg"
                 alt="hewlett-packard logo"
@@ -114,6 +119,7 @@
             <a
               href="https://www.oracle.com/"
               class="anchor__img--partner anchor__oracle-logo"
+              target="_blank"
               ><img
                 src="./assets/shared/desktop/oracle.svg"
                 alt="oracle logo"
@@ -123,6 +129,7 @@
             <a
               href="https://www.google.com/"
               class="anchor__img--partner anchor__google-logo"
+              target="_blank"
               ><img
                 src="./assets/shared/desktop/google.svg"
                 alt="google logo"
@@ -132,6 +139,7 @@
             <a
               href="https://www.nvidia.com/en-eu/"
               class="anchor__img--partner anchor__nvidia-logo"
+              target="_blank"
               ><img
                 src="./assets/shared/desktop/nvidia.svg"
                 alt="nvidia logo"
@@ -164,7 +172,7 @@
             />
           </div>
 
-          <article class="article--home-perks">
+          <article class="article--home-perks article--home-perks-first">
             <h3 class="h3--home-perks">Easy to implement</h3>
             <p class="para--home-perks">
               Our API comes with just a few lines of code. You’ll be up and
@@ -208,8 +216,8 @@
             </div>
           </div>
 
-          <article class="article--home-perks">
-            <h3 class="h3--home-perks">Simple UI & UX</h3>
+          <article class="article--home-perks article--home-perks-second">
+            <h3 class="h3--home-perks h3--home-perks-second">Simple UI & UX</h3>
             <p class="para--home-perks">
               Our pre-built form is easy to integrate in your app or website’s
               checkout flow and designed to optimize conversion.
@@ -217,49 +225,47 @@
           </article>
         </section>
 
-        <section class="features">
-          <div class="features__container">
-            <div class="feature">
-              <img
-                src="/assets/shared/features - home/icon-personal-finances.svg"
-                alt="Personal Finances"
-                class="feature__img"
-              />
-              <h3 class="feature__title">Personal Finances</h3>
-              <p class="feature__text">
-                Consolidate financial data from multiple sources and categorize
-                transactions up to 2 years of history. Analyze reports to
-                reconcile activities in your account.
-              </p>
-            </div>
+        <section class="section--features">
+          <div class="feature-wrapper">
+            <img
+              src="/assets/shared/features - home/icon-personal-finances.svg"
+              alt="Personal Finances"
+              class="feature__img"
+            />
+            <h3 class="feature__title">Personal Finances</h3>
+            <p class="feature__text">
+              Consolidate financial data from multiple sources and categorize
+              transactions up to 2 years of history. Analyze reports to
+              reconcile activities in your account.
+            </p>
+          </div>
 
-            <div class="feature">
-              <img
-                src="/assets/shared/features - home/icon-banking-and-coverage.svg"
-                alt="Banking & Coverage"
-                class="feature__img"
-              />
-              <h3 class="feature__title">Banking & Coverage</h3>
-              <p class="feature__text">
-                With our platform, you can speed up account onboarding and
-                support ongoing payments for checking, savings, credit card, and
-                brokerage accounts.
-              </p>
-            </div>
+          <div class="feature-wrapper">
+            <img
+              src="/assets/shared/features - home/icon-banking-and-coverage.svg"
+              alt="Banking & Coverage"
+              class="feature__img"
+            />
+            <h3 class="feature__title">Banking & Coverage</h3>
+            <p class="feature__text">
+              With our platform, you can speed up account onboarding and support
+              ongoing payments for checking, savings, credit card, and brokerage
+              accounts.
+            </p>
+          </div>
 
-            <div class="feature">
-              <img
-                src="/assets/shared/features - home/icon-consumer-payments.svg"
-                alt="Consumer Payments"
-                class="feature__img"
-              />
-              <h3 class="feature__title">Consumer Payments</h3>
-              <p class="feature__text">
-                It’s easier to set up secure bank payments with us through a
-                flow designed with the user experience in mind. Customers could
-                instantly authenticate their account.
-              </p>
-            </div>
+          <div class="feature-wrapper">
+            <img
+              src="/assets/shared/features - home/icon-consumer-payments.svg"
+              alt="Consumer Payments"
+              class="feature__img"
+            />
+            <h3 class="feature__title">Consumer Payments</h3>
+            <p class="feature__text feature__text--last">
+              It’s easier to set up secure bank payments with us through a flow
+              designed with the user experience in mind. Customers could
+              instantly authenticate their account.
+            </p>
           </div>
         </section>
       </main>
