@@ -195,7 +195,6 @@
   letter-spacing: -0.12px;
   width: 252px;
   height: 48px;
-  cursor: pointer;
   padding: 0;
   line-height: 17px;
 }
@@ -477,16 +476,9 @@ section.email--form--bottom {
   width: 168px;
   height: 48px;
   font-weight: var(--font-weight-bold);
-  cursor: pointer;
   padding: 0;
 }
 
-.button--pricing-card:hover {
-  background-color: var(--secondary-color-san-juan-blue);
-  color: #fff;
-}
-
-/* ~~~~~~~~~~~~~ END OF PRICING PAGE ~~~~~~~~~~~~~~ */
 
 /* ~~~~~~~~~~~~~ END OF PRICING PAGE ~~~~~~~~~~~~~~ */
 

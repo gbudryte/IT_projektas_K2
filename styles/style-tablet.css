@@ -369,6 +369,56 @@
 
   /* ~~~~~~~~~~~~~ END OF HEADER ~~~~~~~~~~~~~~ */
 
+  /* ~~~~~~~~~ Partners list grid ~~~~~~~~~~~~~~~~ */
+
+    .anchor__img--partner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  .tesla-logo {
+    width: 129px;
+    height: 17px;
+    margin-top: 7px;
+    margin-bottom: auto;
+  }
+
+  .microsoft-logo {
+    width: 145px;
+    height: 31px;
+    margin: 0 auto;
+    margin-bottom: auto;
+    
+  }
+
+  .hp-logo {
+    width: 140px;
+    height: 27px;
+    margin-left: auto;
+  }
+
+  .oracle-logo {
+    width: 131px;
+    height: 17px;
+    margin: auto 0 8px 0;
+  }
+
+  .google-logo {
+    width: 96px;
+    height: 33px;
+    margin: 0 auto;
+    margin-top: auto;
+  }
+
+  .nvidia-logo {
+    width: 137px;
+    height: 26px;
+    margin: auto 0 3px auto;
+  }
+
+   /* ~~~~~~~~~ Partners list grid ~~~~~~~~~~~~~~~~ */
+
   /* ~~~~~~~~~~~~~ CONTACT PAGE ~~~~~~~~~~~~~ */
   main.form--page {
     margin: 81px 98px 0 97px;

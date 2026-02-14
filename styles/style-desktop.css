@@ -66,12 +66,20 @@
     width: 168px;
     margin: 16px auto 0;
   }
+
+  .button--pricing-card:hover, .button--submit-form:hover {
+  background-color: var(--secondary-color-san-juan-blue);
+  color: #fff;
+}
+
 }
 @media only screen and (min-width: 1440px) {
   .container {
     background-color: #edf3f8;
     /* max-width: 1440px; */
   }
+
+
 
   /* ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
   div.logo--and--links {
@@ -202,17 +210,17 @@
   /* ~~~~~~~~~~~~~ END OF ABOUT PAGE ~~~~~~~~~~~~~~ */
 
   /* ~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
+
+  button:hover{
+    cursor: pointer;
+  }
+
   .header--home-page {
     grid-template-areas:
       "nav nav"
       "email phone";
     height: fit-content;
   }
-
-  /* .header__circle-wrapper{
-      grid-area: 1 / 2/ 3 / 3 ;
-      height: 720px;
-    } */
 
   .header__circle--home-page {
     left: auto;
@@ -314,6 +322,17 @@
       background-position-x: -235px;
     }
 
+  .section--partners-grid {
+    grid-area: partners;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 105px 163px 0 165px;
+    background-position-y: -359px;
+    background-position-x: -235px;
+  }
     .article--partners-grid {
       width: 445px;
       height: 266px;
@@ -346,6 +365,25 @@
       margin-top: 80px;
     }
 
+  .article__button--about-us:hover {
+    background-color: #fff;
+    border: 1px solid var(--primary-color-link-water-white);
+    color: var(--secondary-color-mirage-blue);
+  }
+  .partners-grid-wrapper-home{
+    width: 536px;
+    height: 103px;
+    display: grid;
+    grid-template-columns: 178px 178px 178px;
+    padding: 0;
+    margin: 80px 0 auto auto;
+    gap: 0;
+    align-items: start;
+  }
+
+  .perks-phone-mockups-container {
+    grid-area: article;
+  }
     .anchor__img--partner {
       width: 100%;
       display: flex;
@@ -419,6 +457,10 @@
       object-fit: fill;
     }
 
+  .img--script-toolbar {
+    width: 100%;
+    height: auto;
+  }
     .img--script-content {
       height: 180px;
       padding: 0;
