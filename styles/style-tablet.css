@@ -168,6 +168,45 @@
       margin: 0;
     }
   }
+<<<<<<< HEAD
+=======
+/* ~~~~~~~~~~~~~ END OF EMAIL FORM ~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~ PRICING PAGE ~~~~~~~~~~~~~~ */
+.main--pricing-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  align-items: start;
+  text-align: center;
+  padding: 0 40px;
+}
+
+/* pricing heading */
+.h3--pricing {
+  grid-column: 1 / -1;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  grid-column: 1 / -1;
+  font-size: 56px; /*nesuradau jau kurto dydzio :(*/
+  color: var(--secondary-color-san-juan-blue);
+}
+
+
+/* Plan titles */
+.h4--pricing-card {
+  font-size: 32px; /*nesuradau jau kurto dydzio :(*/
+  line-height: 36px;
+}
+
+/* cards */
+.pricing-card,
+.pricing-card-last {
+  max-width: none;
+  margin: 0;
+>>>>>>> de206a5647f82604c1e0200de52845779c54146d
 
   /* ~~~~~~~~~~~~~ END OF EMAIL FORM ~~~~~~~~~~~~~~ */
 
@@ -469,6 +508,7 @@
     }
   }
   /* ~~~~~~~~~~~~~ END OF CONTACT PAGE ~~~~~~~~~~~~~ */
+<<<<<<< HEAD
 }
 
 /* pricing heading */
@@ -493,6 +533,8 @@
 .pricing-card-last {
   max-width: none;
   margin: 0;
+=======
+>>>>>>> de206a5647f82604c1e0200de52845779c54146d
 }
 
 /* divider */
