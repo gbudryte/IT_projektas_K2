@@ -419,6 +419,34 @@
 
    /* ~~~~~~~~~ Partners list grid ~~~~~~~~~~~~~~~~ */
 
+  /* ~~~~~~~~~ Partners headers & paragraph ~~~~~~~~~~~~~~~~ */
+  .article__heading--partners {
+    font-size: var(--h2-size);
+    letter-spacing: var(--h2-letter-spacing);
+    line-height: var(--h2-line-height);
+
+  }
+
+  .article__para--partners {
+    width: 456px;
+    margin: 0 0 16px;
+  }
+   /* ~~~~~~~~~ Partners headers & paragraph ~~~~~~~~~~~~~~~~ */
+
+  /* ~~~~~~~~~~~~~ para--home-perks ~~~~~~~~~~~~~~ */
+
+  .h3--home-perks {
+        font-size: var(--h2-size);
+    letter-spacing: var(--h2-letter-spacing);
+    line-height: var(--h2-line-height);
+  }
+  .para--home-perks {
+    width: 573px;
+  }
+
+   /* ~~~~~~~~~~~~~ para--home-perks ~~~~~~~~~~~~~~ */
+
+
   /* ~~~~~~~~~~~~~ CONTACT PAGE ~~~~~~~~~~~~~ */
   main.form--page {
     margin: 81px 98px 0 97px;
