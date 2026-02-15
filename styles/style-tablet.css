@@ -1,11 +1,11 @@
 @import "/styles/style.css";
 
-@media only screen and (min-width: 768px) and (max-width: 1439px){
+@media only screen and (min-width: 768px) {
+  .container {
+    background-color: #edf3f8;
+  }
 
-  /* .container{
-    background-color: red;
-  } */
-
+  /* ~~~~~~~~~~~~~ PRICING PAGE ~~~~~~~~~~~~~~ */
   .main--pricing-container{
     padding: 0 40px 100px;
     display: grid;
@@ -72,12 +72,7 @@
     width: 168px;
     margin: auto auto 0;
   }
-
-}
-@media only screen and (min-width: 768px) {
-  .container {
-    background-color: #edf3f8;
-  }
+  /*~~~~~~~~~~~~~ END of pricing  ~~~~~~~~~~~~~*/
 
   .partners-grid-wrapper {
     display: grid;
