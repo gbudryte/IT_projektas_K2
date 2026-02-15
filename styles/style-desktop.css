@@ -1,13 +1,12 @@
 @import "/styles/style.css";
 
 @media only screen and (min-width: 1440px) {
-  /* Section
   .container {
-    background-color: green;
-    width: 100%;
-  } */
+    background-color: #edf3f8;
+    /* max-width: 1440px; */
+  }
 
-  /* Content wrapper */
+  /* ~~~~~~~~~~~~~ pricing  ~~~~~~~~~~~~~ */
   .main--pricing-container {
     max-width: 1440px;
     margin: 0 auto;
@@ -16,21 +15,26 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
-    text-align: center;
-    align-items: stretch;
+    text-align: left;
+    align-items: flex-start;
   }
 
+  /* Title */
   .main--pricing-container .h3--pricing {
     grid-column: 1 / -1;
+    justify-self: start;
+    text-align: left;
     font-size: 56px;
     line-height: 56px;
-    margin-bottom: 72px;
+    margin-bottom: 48px;
+    margin-top: 46px;
   }
 
   /* Cards */
   .main--pricing-container .pricing-card {
     display: flex;
     flex-direction: column;
+    align-items: flex-start; /* Align items to the left (finally😭) */
   }
 
   .main--pricing-container .h4--pricing-card {
@@ -40,7 +44,7 @@
 
   .main--pricing-container .p--pricing-card {
     margin-bottom: 32px;
-    padding: 0 10px;
+    padding: 0;
   }
 
   .main--pricing-container .h1--card-price {
@@ -49,35 +53,49 @@
   }
 
   .main--pricing-container hr {
+    width: 100%;
     margin-bottom: 32px;
   }
 
-  /* Features */
+  /* Feature list */
   .main--pricing-container .ul--features {
-    margin-bottom: 40px;
+    padding: 0;
+    margin: 0 0 40px 0;
+    list-style: none;
+    width: 100%;
   }
 
   .main--pricing-container .ul--features li {
-    padding-left: 32px;
+    position: relative;
+    padding: 0 0 15px 36px; /* space for icon */
+    text-align: left;
+    left: 0;
+    transform: none;
+    width: auto;
+  }
+
+  /* Check icon */
+  .li--included::before {
+    content: url(/assets/shared/desktop/icon-check.svg);
+    position: absolute;
+    left: 0;
+    top: 2px;
   }
 
   /* Button */
   .main--pricing-container .button--pricing-card {
     width: 168px;
-    margin: 16px auto 0;
+    margin: 16px 0 0 0;
   }
 
+  /* Hover */
   .button--pricing-card:hover,
   .button--submit-form:hover {
     background-color: var(--secondary-color-san-juan-blue);
     color: #fff;
   }
-}
-@media only screen and (min-width: 1440px) {
-  .container {
-    background-color: #edf3f8;
-    /* max-width: 1440px; */
-  }
+  /* ~~~~~~~~~~~~~ End of pricing  ~~~~~~~~~~~~~ */
+  
 
   /* ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
   div.logo--and--links {
