@@ -29,7 +29,7 @@ function printEmptyError(inputField) {
   inputField.style.setProperty("--placeholder-color", "rgba(255,0,0,0.5)");
 }
 
-function printEmailError(emailField) {
+function printEmailErro(emailField) {
   const errorField = emailField.nextElementSibling;
   errorField.textContent = "Please enter a valid email address";
   errorField.style.display = "block";
