@@ -48,6 +48,7 @@ function clearErrors() {
       "--placeholder-color",
       "var(--secondary-color-san-juan-blue-semi-opaque)",
     );
+    inputField.setAttribute("aria-invalid", "false");
   });
 }
 
@@ -57,6 +58,7 @@ function getTestPrint() {
   requiredFields.forEach((input) => {
     if (isEntryEmpty(input.value)) {
       printEmptyError(input);
+      input.setAttribute("aria-invalid", "true");
       formValid = false;
     }
   });
@@ -66,6 +68,7 @@ function getTestPrint() {
     isEmailValid(emailBox.value) == false
   ) {
     printEmailError(emailBox);
+    emailBox.setAttribute("aria-invalid", "true");
     formValid = false;
   }
   console.log(formValid);

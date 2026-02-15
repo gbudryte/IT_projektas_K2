@@ -112,7 +112,7 @@
     padding: 100px 165px 80px;
     flex-direction: row;
     justify-content: space-between;
-    div.input--button--wrapper {
+    form.input--button--wrapper {
       margin-bottom: 20px;
     }
     h3 {
@@ -134,7 +134,7 @@
       margin-bottom: 8px;
       text-align: left;
     }
-    div.link--wrapper {
+    form.link--wrapper {
       margin-left: 27px;
     }
   }
