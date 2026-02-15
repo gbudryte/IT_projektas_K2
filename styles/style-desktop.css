@@ -141,7 +141,7 @@
 
   section.email--form--top,
   section.email--form--bottom {
-    div.input--button--wrapper button:hover {
+    form.input--button--wrapper button:hover {
       background-color: var(--secondary-color-charm-pink);
     }
   }
