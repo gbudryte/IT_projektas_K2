@@ -31,7 +31,7 @@
           <a href="/index.html" class="anchor--payapi"
             ><img
               src="/assets/shared/desktop/logo.svg"
-              alt="pay api logo"
+              alt="link to homepage"
               class="nav--payapi-logo"
           /></a>
           <nav class="nav__menu">
@@ -44,6 +44,12 @@
               src="/assets/shared/mobile/menu.svg"
               alt="menu logo"
               class="nav--menu-logo"
+              role="button"
+              tabindex="0"
+              aria-label="Open menu"
+              aria-expanded="false"
+              alt=""
+              aria-controls="mobile-navigation"
             />
           </nav>
           <button class="nav__button--demo">
@@ -62,19 +68,25 @@
           <input
             class="must-fill"
             type="text"
-            aria-label="name"
             id="contact-name"
             placeholder="Name"
+            aria-label="Name"
+            aria-required="true"
+            aria-describedby="name-error-mssg"
+            aria-invalid="false"
           />
-          <p class="error--mssg"></p>
+          <p id="name-error-mssg" class="error--mssg" aria-live="polite"></p>
           <input
             class="must-fill"
             type="email"
             aria-label="email address"
             id="contact-email"
             placeholder="Email Address"
+            aria-required="true"
+            aria-describedby="name-error-mssg"
+            aria-invalid="false"
           />
-          <p class="error--mssg"></p>
+          <p id="email-error" class="error--mssg" aria-live="polite"></p>
           <input
             type="text"
             aria-label="company name"
@@ -115,7 +127,7 @@
               target="_blank"
               ><img
                 src="./assets/shared/desktop/tesla.svg"
-                alt="tesla logo"
+                alt="link to tesla webpage"
                 class="img--partners-logo tesla-logo"
               />
             </a>
@@ -127,7 +139,7 @@
             >
               <img
                 src="./assets/shared/desktop/microsoft.svg"
-                alt="microsoft logo"
+                alt="link to microsoft webpage"
                 class="img--partners-logo microsoft-logo"
               />
             </a>
@@ -137,7 +149,7 @@
               target="_blank"
               ><img
                 src="./assets/shared/desktop/hewlett-packard.svg"
-                alt="hewlett-packard logo"
+                alt="link to hp webpage"
                 class="img--partners-logo hp-logo"
             /></a>
 
@@ -147,7 +159,7 @@
               target="_blank"
               ><img
                 src="./assets/shared/desktop/oracle.svg"
-                alt="oracle logo"
+                alt="link to oracle webpage"
                 class="img--partners-logo oracle-logo"
             /></a>
 
@@ -157,7 +169,7 @@
               target="_blank"
               ><img
                 src="./assets/shared/desktop/google.svg"
-                alt="google logo"
+                alt="link to google webpage"
                 class="img--partners-logo google-logo"
             /></a>
 
@@ -167,7 +179,7 @@
               target="_blank"
               ><img
                 src="./assets/shared/desktop/nvidia.svg"
-                alt="nvidia logo"
+                alt="link to nvidia webpage"
                 class="img--partners-logo nvidia-logo"
             /></a>
           </div>
@@ -176,10 +188,10 @@
       <footer>
         <section class="email--form--bottom">
           <h3>Ready to start?</h3>
-          <div class="input--button--wrapper">
+          <form class="input--button--wrapper">
             <input type="email" placeholder="Enter email address" />
-            <button>Schedule a Demo</button>
-          </div>
+            <button type="submit">Schedule a Demo</button>
+          </form>
         </section>
         <div class="logo--and--links">
           <svg width="135" height="38" xmlns="http://www.w3.org/2000/svg">
@@ -257,13 +269,22 @@
           </div>
           <div id="footer--links--icons">
             <a href="https://www.facebook.com/TECHINmokymocentras/">
-              <img src="assets\shared\desktop\facebook.svg" alt="PayAPI on Facebook"/>
+              <img
+                src="assets\shared\desktop\facebook.svg"
+                alt="PayAPI on Facebook"
+              />
             </a>
             <a href="https://x.com/">
-              <img src="assets\shared\desktop\twitter.svg" alt="PayAPI on Twitter"/>
+              <img
+                src="assets\shared\desktop\twitter.svg"
+                alt="PayAPI on Twitter"
+              />
             </a>
             <a href="https://www.linkedin.com/school/ateitiesprofesija/">
-              <img src="assets\shared\desktop\linkedin.svg" alt="PayAPI on LinkedIn"/>
+              <img
+                src="assets\shared\desktop\linkedin.svg"
+                alt="PayAPI on LinkedIn"
+              />
             </a>
           </div>
         </div>

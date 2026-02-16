@@ -95,7 +95,7 @@
     color: #fff;
   }
   /* ~~~~~~~~~~~~~ End of pricing  ~~~~~~~~~~~~~ */
-  }
+  
 
   /* ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
   div.logo--and--links {
@@ -128,7 +128,7 @@
     padding: 100px 165px 80px;
     flex-direction: row;
     justify-content: space-between;
-    div.input--button--wrapper {
+    form.input--button--wrapper {
       margin-bottom: 20px;
     }
     h3 {
@@ -150,14 +150,14 @@
       margin-bottom: 8px;
       text-align: left;
     }
-    div.link--wrapper {
+    form.link--wrapper {
       margin-left: 27px;
     }
   }
 
   section.email--form--top,
   section.email--form--bottom {
-    div.input--button--wrapper button:hover {
+    form.input--button--wrapper button:hover {
       background-color: var(--secondary-color-charm-pink);
     }
   }
@@ -227,7 +227,7 @@
 
   /* ~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
 
-  button:hover{
+  button:hover {
     cursor: pointer;
   }
 
@@ -338,17 +338,17 @@
       background-position-x: -235px;
     }
 
-  .section--partners-grid {
-    grid-area: partners;
-    width: 100%;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    height: fit-content;
-    padding: 105px 163px 0 165px;
-    background-position-y: -359px;
-    background-position-x: -235px;
-  }
+    .section--partners-grid {
+      grid-area: partners;
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      height: fit-content;
+      padding: 105px 163px 0 165px;
+      background-position-y: -359px;
+      background-position-x: -235px;
+    }
     .article--partners-grid {
       width: 445px;
       height: 266px;
@@ -381,25 +381,25 @@
       margin-top: 80px;
     }
 
-  .article__button--about-us:hover {
-    background-color: #fff;
-    border: 1px solid var(--primary-color-link-water-white);
-    color: var(--secondary-color-mirage-blue);
-  }
-  .partners-grid-wrapper-home{
-    width: 536px;
-    height: 103px;
-    display: grid;
-    grid-template-columns: 178px 178px 178px;
-    padding: 0;
-    margin: 80px 0 auto auto;
-    gap: 0;
-    align-items: start;
-  }
+    .article__button--about-us:hover {
+      background-color: #fff;
+      border: 1px solid var(--primary-color-link-water-white);
+      color: var(--secondary-color-mirage-blue);
+    }
+    .partners-grid-wrapper-home {
+      width: 536px;
+      height: 103px;
+      display: grid;
+      grid-template-columns: 178px 178px 178px;
+      padding: 0;
+      margin: 80px 0 auto auto;
+      gap: 0;
+      align-items: start;
+    }
 
-  .perks-phone-mockups-container {
-    grid-area: article;
-  }
+    .perks-phone-mockups-container {
+      grid-area: article;
+    }
     .anchor__img--partner {
       width: 100%;
       display: flex;
@@ -473,10 +473,10 @@
       object-fit: fill;
     }
 
-  .img--script-toolbar {
-    width: 100%;
-    height: auto;
-  }
+    .img--script-toolbar {
+      width: 100%;
+      height: auto;
+    }
     .img--script-content {
       height: 180px;
       padding: 0;
@@ -635,3 +635,4 @@
     }
   }
   /* ~~~~~~~~~~~~~ END OF CONTACT PAGE ~~~~~~~~~~~~~ */
+}

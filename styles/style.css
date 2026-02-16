@@ -90,7 +90,7 @@ select:focus-visible,
 }
 
 /* Fallback for older browsers */
-a:focus,
+/* a:focus,
 button:focus,
 input:focus,
 textarea:focus,
@@ -98,7 +98,7 @@ select:focus,
 [role="button"]:focus {
   outline: 3px solid var(--primary-color-dark-pink);
   outline-offset: 2px;
-}
+} */
 
 /* Skip to main content link - visible on focus */
 .skip-link {

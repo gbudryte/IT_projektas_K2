@@ -30,7 +30,7 @@
           <a href="/index.html" class="anchor--payapi"
             ><img
               src="/assets/shared/desktop/logo.svg"
-              alt="pay api logo"
+              alt="link to homepage"
               class="nav--payapi-logo"
           /></a>
           <nav class="nav__menu">
@@ -44,6 +44,12 @@
               src="/assets/shared/mobile/menu.svg"
               alt="menu logo"
               class="nav--menu-logo"
+              role="button"
+              tabindex="0"
+              aria-label="Open menu"
+              aria-expanded="false"
+              alt=""
+              aria-controls="mobile-navigation"
             />
           </nav>
           <button class="nav__button--demo">
@@ -123,10 +129,10 @@
       <footer>
         <section class="email--form--bottom">
           <h3>Ready to start?</h3>
-          <div class="input--button--wrapper">
+          <form class="input--button--wrapper">
             <input type="email" placeholder="Enter email address" />
-            <button>Schedule a Demo</button>
-          </div>
+            <button type="submit">Schedule a Demo</button>
+          </form>
         </section>
         <div class="logo--and--links">
           <svg width="135" height="38" xmlns="http://www.w3.org/2000/svg">
@@ -204,13 +210,22 @@
           </div>
           <div id="footer--links--icons">
             <a href="https://www.facebook.com/TECHINmokymocentras/">
-              <img src="assets\shared\desktop\facebook.svg" />
+              <img
+                src="assets\shared\desktop\facebook.svg"
+                alt="PayAPI on Facebook"
+              />
             </a>
             <a href="https://x.com/">
-              <img src="assets\shared\desktop\twitter.svg" />
+              <img
+                src="assets\shared\desktop\twitter.svg"
+                alt="PayAPI on Twitter"
+              />
             </a>
             <a href="https://www.linkedin.com/school/ateitiesprofesija/">
-              <img src="assets\shared\desktop\linkedin.svg" />
+              <img
+                src="assets\shared\desktop\linkedin.svg"
+                alt="PayAPI on LinkedIn"
+              />
             </a>
           </div>
         </div>
