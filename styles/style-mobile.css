@@ -490,7 +490,8 @@ section.email--form--bottom {
   text-align: center;
 
   h1,
-  h3 {
+  h3,
+  h4 {
     font-family: var(--font-family-dm-serif-display);
     font-weight: var(--font-weight-regular);
   }
