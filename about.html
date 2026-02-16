@@ -60,7 +60,10 @@
       </header>
 
       <main class="main--about-container">
-        <h1 class="main__heading--about">
+        <h1
+          class="main__heading--about"
+          aria-label="We empower innovators by delivering access to the financial system"
+        >
           We empower innovators <br />
           by delivering access to the financial system
         </h1>
@@ -159,7 +162,14 @@
         <section class="email--form--bottom">
           <h3>Ready to start?</h3>
           <form class="input--button--wrapper">
-            <input type="email" placeholder="Enter email address" />
+            <label for="email-input-bottom" class="visually-hidden"
+              >Enter email address</label
+            >
+            <input
+              id="email-input-bottom"
+              type="email"
+              placeholder="Enter email address"
+            />
             <button type="submit">Schedule a Demo</button>
           </form>
         </section>

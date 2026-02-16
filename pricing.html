@@ -22,7 +22,7 @@
     <div class="container">
       <img
         src="/assets/shared/desktop/bg-pattern-circle.svg"
-        alt="circle"
+        alt=""
         class="header__circle header__circle--other-pages"
       />
       <header class="header header--other-pages">
@@ -70,14 +70,29 @@
           </p>
           <h1 class="h1--card-price">$0.00</h1>
           <hr />
+
           <ul class="ul--features">
-            <li class="li--included">Transactions</li>
-            <li class="li--included">Auth</li>
-            <li class="li--included">Identity</li>
-            <li class="li--not-included">Investments</li>
-            <li class="li--not-included">Assets</li>
-            <li class="li--not-included">Liabilities</li>
-            <li class="li--not-included">Income</li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span> Transactions
+            </li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Auth
+            </li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span> Identity
+            </li>
+            <li class="li--not-included">
+              <span class="visually-hidden">Not included</span> Investments
+            </li>
+            <li class="li--not-included">
+              <span class="visually-hidden">Not included</span>Assets
+            </li>
+            <li class="li--not-included">
+              <span class="visually-hidden">Not included</span>Liabilities
+            </li>
+            <li class="li--not-included">
+              <span class="visually-hidden">Not included</span>Income
+            </li>
           </ul>
           <hr />
           <button class="button--pricing-card">Request Access</button>
@@ -92,13 +107,27 @@
           <h1 class="h1--card-price">$249.00</h1>
           <hr />
           <ul class="ul--features">
-            <li class="li--included">Transactions</li>
-            <li class="li--included">Auth</li>
-            <li class="li--included">Identity</li>
-            <li class="li--included">Investments</li>
-            <li class="li--included">Assets</li>
-            <li class="li--not-included">Liabilities</li>
-            <li class="li--not-included">Income</li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Transactions
+            </li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Auth
+            </li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Identity
+            </li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Investments
+            </li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Assets
+            </li>
+            <li class="li--not-included">
+              <span class="visually-hidden">Not included</span>Liabilities
+            </li>
+            <li class="li--not-included">
+              <span class="visually-hidden">Not included</span>Income
+            </li>
           </ul>
           <hr />
           <button class="button--pricing-card">Request Access</button>
@@ -113,13 +142,27 @@
           <h1 class="h1--card-price">$499.00</h1>
           <hr />
           <ul class="ul--features">
-            <li class="li--included">Transactions</li>
-            <li class="li--included">Auth</li>
-            <li class="li--included">Identity</li>
-            <li class="li--included">Investments</li>
-            <li class="li--included">Assets</li>
-            <li class="li--included">Liabilities</li>
-            <li class="li--included">Income</li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Transactions
+            </li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Auth
+            </li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Identity
+            </li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Investments
+            </li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Assets
+            </li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Liabilities
+            </li>
+            <li class="li--included">
+              <span class="visually-hidden">Included</span>Income
+            </li>
           </ul>
           <hr />
           <button class="button--pricing-card">Request Access</button>
@@ -130,7 +173,14 @@
         <section class="email--form--bottom">
           <h3>Ready to start?</h3>
           <form class="input--button--wrapper">
-            <input type="email" placeholder="Enter email address" />
+            <label for="email-input-bottom" class="visually-hidden"
+              >Enter email address</label
+            >
+            <input
+              id="email-input-bottom"
+              type="email"
+              placeholder="Enter email address"
+            />
             <button type="submit">Schedule a Demo</button>
           </form>
         </section>
