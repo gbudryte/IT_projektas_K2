@@ -134,7 +134,7 @@
 
   section.email--form--top,
   section.email--form--bottom {
-    h3 {
+    h1, h3 {
       font-size: var(--h2-size);
       letter-spacing: -0.37px;
       line-height: 56px;
