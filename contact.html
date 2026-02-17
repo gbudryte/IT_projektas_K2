@@ -60,9 +60,9 @@
         <div class="burger-container"></div>
       </header>
       <main class="form--page">
-        <h3 id="form--page--header">
+        <h1 id="form--page--header">
           Submit a help request and we’ll get in touch shortly.
-        </h3>
+        </h1>
 
         <form class="contact--form" novalidate>
           <input
@@ -188,9 +188,13 @@
       <footer>
         <section class="email--form--bottom">
           <h3>Ready to start?</h3>
-          <form class="input--button--wrapper">
-            <input type="email" placeholder="Enter email address" />
-            <button type="submit">Schedule a Demo</button>
+          <form class="input--button--wrapper" role="group">
+            <input
+              type="email"
+              placeholder="Enter email address"
+              aria-label="Enter email address"
+            />
+            <button type="submit"">Schedule a Demo</button>
           </form>
         </section>
         <div class="logo--and--links">

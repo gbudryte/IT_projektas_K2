@@ -264,7 +264,7 @@ section.email--form--bottom {
   align-items: center;
   padding: 0 24px 80px;
 
-  h3 {
+  h1, h3 {
     color: var(--secondary-color-san-juan-blue);
     font-family: var(--font-family-dm-serif-display);
     font-size: var(--h3-size-big);
@@ -490,7 +490,8 @@ section.email--form--bottom {
   text-align: center;
 
   h1,
-  h3 {
+  h3,
+  h4 {
     font-family: var(--font-family-dm-serif-display);
     font-weight: var(--font-weight-regular);
   }
@@ -1035,3 +1036,14 @@ div.picture--container {
 }
 
 /* ~~~~~~~~~~~~~ END OF HOME PAGE FEATURES ~~~~~~~~~~~~~~ */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

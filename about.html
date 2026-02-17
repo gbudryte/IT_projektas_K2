@@ -60,7 +60,10 @@
       </header>
 
       <main class="main--about-container">
-        <h1 class="main__heading--about">
+        <h1
+          class="main__heading--about"
+          aria-label="We empower innovators by delivering access to the financial system"
+        >
           We empower innovators <br />
           by delivering access to the financial system
         </h1>
@@ -111,24 +114,27 @@
 
         <section class="section--about-cards">
           <div class="card__wrapper-about">
-            <hr class="card__hr--about-sides" />
+            <hr class="card__hr--about-sides" aria-hidden="true" />
             <p class="para__card-about">Team Members</p>
-            <h1 class="heading__card-about">300+</h1>
-            <hr class="card__hr--about" />
+            <h4 class="heading__card-about">300+</h4>
+            <hr class="card__hr--about" aria-hidden="true" />
           </div>
 
           <div class="card__wrapper-about">
-            <hr class="card__hr--about" />
+            <hr class="card__hr--about" aria-hidden="true" />
             <p class="para__card-about">Offices in the US</p>
-            <h1 class="heading__card-about">3</h1>
-            <hr class="card__hr--about" />
+            <h4 class="heading__card-about">3</h4>
+            <hr class="card__hr--about" aria-hidden="true" />
           </div>
 
           <div class="card__wrapper-about">
-            <hr class="card__hr--about" />
+            <hr class="card__hr--about" aria-hidden="true" />
             <p class="para__card-about">Transactions analyzed</p>
-            <h1 class="heading__card-about">10M+</h1>
-            <hr class="card__hr--about-sides card__hr--about-last" />
+            <h4 class="heading__card-about">10M+</h4>
+            <hr
+              class="card__hr--about-sides card__hr--about-last"
+              aria-hidden="true"
+            />
           </div>
         </section>
 
@@ -159,7 +165,11 @@
         <section class="email--form--bottom">
           <h3>Ready to start?</h3>
           <form class="input--button--wrapper">
-            <input type="email" placeholder="Enter email address" />
+            <input
+              type="email"
+              placeholder="Enter email address"
+              aria-label="Enter email address"
+            />
             <button type="submit">Schedule a Demo</button>
           </form>
         </section>
